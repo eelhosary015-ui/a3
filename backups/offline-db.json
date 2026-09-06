@@ -1,0 +1,7743 @@
+{
+  "cost_centers": [
+    {
+      "id": 1,
+      "code": "CC-001",
+      "name": "الإدارة العامة",
+      "type": "إدارة",
+      "branch": "القاهرة",
+      "manager": "أحمد محمد",
+      "status": "نشط"
+    },
+    {
+      "id": 2,
+      "code": "CC-002",
+      "name": "فرع القاهرة",
+      "type": "فروع",
+      "branch": "القاهرة",
+      "manager": "محمود علي",
+      "status": "نشط"
+    },
+    {
+      "id": 3,
+      "code": "CC-003",
+      "name": "فرع الجيزة",
+      "type": "فروع",
+      "branch": "الجيزة",
+      "manager": "محمد حسن",
+      "status": "نشط"
+    },
+    {
+      "id": 4,
+      "code": "CC-004",
+      "name": "المخازن الرئيسي",
+      "type": "مخازن",
+      "branch": "القاهرة",
+      "manager": "سعيد خالد",
+      "status": "نشط"
+    },
+    {
+      "id": 5,
+      "code": "CC-005",
+      "name": "الكاشير",
+      "type": "مبيعات",
+      "branch": "القاهرة",
+      "manager": "أحمد جمال",
+      "status": "نشط"
+    },
+    {
+      "id": 6,
+      "code": "CC-006",
+      "name": "المطبخ الرئيسي",
+      "type": "إنتاج",
+      "branch": "القاهرة",
+      "manager": "علي محمود",
+      "status": "نشط"
+    },
+    {
+      "id": 7,
+      "code": "CC-007",
+      "name": "الدليفري",
+      "type": "مبيعات",
+      "branch": "القاهرة",
+      "manager": "أيمن صلاح",
+      "status": "نشط"
+    },
+    {
+      "id": 8,
+      "code": "CC-008",
+      "name": "الموارد البشرية",
+      "type": "إدارة",
+      "branch": "القاهرة",
+      "manager": "نادية أحمد",
+      "status": "نشط"
+    }
+  ],
+  "cost_items": [
+    {
+      "id": 1,
+      "code": "CST-001",
+      "name": "كهرباء",
+      "cost_type": "تشغيل",
+      "department": "المصروفات العامة",
+      "status": "نشط"
+    },
+    {
+      "id": 2,
+      "code": "CST-002",
+      "name": "مياه",
+      "cost_type": "تشغيل",
+      "department": "المصروفات العامة",
+      "status": "نشط"
+    },
+    {
+      "id": 3,
+      "code": "CST-003",
+      "name": "إنترنت وهاتف",
+      "cost_type": "تشغيل",
+      "department": "المصروفات العامة",
+      "status": "نشط"
+    },
+    {
+      "id": 4,
+      "code": "CST-004",
+      "name": "رواتب وأجور",
+      "cost_type": "مرتبات",
+      "department": "الموارد البشرية",
+      "status": "نشط"
+    },
+    {
+      "id": 5,
+      "code": "CST-005",
+      "name": "بدلات",
+      "cost_type": "مرتبات",
+      "department": "الموارد البشرية",
+      "status": "نشط"
+    },
+    {
+      "id": 6,
+      "code": "CST-006",
+      "name": "تأمينات اجتماعية",
+      "cost_type": "مرتبات",
+      "department": "الموارد البشرية",
+      "status": "نشط"
+    },
+    {
+      "id": 7,
+      "code": "CST-007",
+      "name": "إيجارات",
+      "cost_type": "تشغيل",
+      "department": "المصروفات العامة",
+      "status": "نشط"
+    },
+    {
+      "id": 8,
+      "code": "CST-008",
+      "name": "صيانة وإصلاحات",
+      "cost_type": "تشغيل",
+      "department": "المصروفات العامة",
+      "status": "نشط"
+    },
+    {
+      "id": 9,
+      "code": "CST-009",
+      "name": "وقود ومواصلات",
+      "cost_type": "تشغيل",
+      "department": "المصروفات العامة",
+      "status": "نشط"
+    },
+    {
+      "id": 10,
+      "code": "CST-010",
+      "name": "تغليف",
+      "cost_type": "تشغيل",
+      "department": "الإنتاج",
+      "status": "نشط"
+    }
+  ],
+  "operating_costs": [
+    {
+      "id": 1,
+      "voucher_no": "INV-2025-001",
+      "date": "2025-06-23T10:30:00.000Z",
+      "branch": "القاهرة",
+      "department": "المخازن",
+      "cost_center_id": 4,
+      "cost_item_id": 1,
+      "category": "تشغيل",
+      "amount": 1500,
+      "payment_method": "نقدي",
+      "safe": "خزينة فرع القاهرة",
+      "status": "معتمد",
+      "created_by": "محمد أحمد",
+      "notes": "فاتورة كهرباء شهر يونيو 2025",
+      "link_ledger": true
+    },
+    {
+      "id": 2,
+      "voucher_no": "INV-2025-002",
+      "date": "2025-06-23T11:00:00.000Z",
+      "branch": "القاهرة",
+      "department": "الموارد البشرية",
+      "cost_center_id": 8,
+      "cost_item_id": 4,
+      "category": "مرتبات",
+      "amount": 25000,
+      "payment_method": "نقدي",
+      "safe": "خزينة فرع القاهرة",
+      "status": "معتمد",
+      "created_by": "محمد أحمد",
+      "notes": "راتب شهر يونيو 2025",
+      "link_ledger": true
+    },
+    {
+      "id": 3,
+      "voucher_no": "INV-2025-003",
+      "date": "2025-06-22T09:15:00.000Z",
+      "branch": "الجيزة",
+      "department": "المبيعات",
+      "cost_center_id": 5,
+      "cost_item_id": 3,
+      "category": "تشغيل",
+      "amount": 800,
+      "payment_method": "نقدي",
+      "safe": "خزينة فرع الجيزة",
+      "status": "جديد",
+      "created_by": "محمد أحمد",
+      "notes": "فاتورة إنترنت الكاشير",
+      "link_ledger": false
+    },
+    {
+      "id": 4,
+      "voucher_no": "INV-2025-004",
+      "date": "2025-06-22T14:45:00.000Z",
+      "branch": "القاهرة",
+      "department": "المطبخ",
+      "cost_center_id": 6,
+      "cost_item_id": 1,
+      "category": "تشغيل",
+      "amount": 2300,
+      "payment_method": "نقدي",
+      "safe": "خزينة فرع القاهرة",
+      "status": "معتمد",
+      "created_by": "محمد أحمد",
+      "notes": "فاتورة غاز المطبخ الرئيسي",
+      "link_ledger": true
+    },
+    {
+      "id": 5,
+      "voucher_no": "INV-2025-005",
+      "date": "2025-06-21T16:20:00.000Z",
+      "branch": "القاهرة",
+      "department": "الدليفري",
+      "cost_center_id": 7,
+      "cost_item_id": 9,
+      "category": "تشغيل",
+      "amount": 1200,
+      "payment_method": "نقدي",
+      "safe": "خزينة فرع القاهرة",
+      "status": "معتمد",
+      "created_by": "محمد أحمد",
+      "notes": "وقود دراجات الدليفري",
+      "link_ledger": true
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "شركة الأمل للتوريدات الغذائية",
+      "code": "SUP-001",
+      "phone": "01012345678",
+      "email": "alamal@example.com",
+      "address": "القاهرة - مدينة نصر",
+      "tax_number": "123-456-789",
+      "contact_person": "محمد السيد",
+      "balance": 0,
+      "notes": "مورد رئيسي للمواد الغذائية"
+    },
+    {
+      "id": 2,
+      "name": "مطاحن مصر العليا",
+      "code": "SUP-002",
+      "phone": "01098765432",
+      "email": "millseg@example.com",
+      "address": "الجيزة - 6 أكتوبر",
+      "tax_number": "987-654-321",
+      "contact_person": "أحمد فؤاد",
+      "balance": 1500,
+      "notes": "مورد الدقيق"
+    },
+    {
+      "id": 3,
+      "name": "شركة النيل للزيوت",
+      "code": "SUP-003",
+      "phone": "01122334455",
+      "email": "nileoil@example.com",
+      "address": "القاهرة - حلوان",
+      "tax_number": "456-789-123",
+      "contact_person": "خالد عبد الله",
+      "balance": 0,
+      "notes": "مورد الزيوت"
+    },
+    {
+      "id": 4,
+      "name": "مزارع الدلتا للدواجن",
+      "code": "SUP-004",
+      "phone": "01233445566",
+      "email": "deltafarm@example.com",
+      "address": "الدقهلية - المنصورة",
+      "tax_number": "789-123-456",
+      "contact_person": "سعيد إبراهيم",
+      "balance": -800,
+      "notes": "مورد الدواجن والبيض"
+    },
+    {
+      "id": 5,
+      "name": "شركة السلام للحوم",
+      "code": "SUP-005",
+      "phone": "01055667788",
+      "email": "salammeat@example.com",
+      "address": "القاهرة - المعادي",
+      "tax_number": "321-654-987",
+      "contact_person": "محمود رضا",
+      "balance": 0,
+      "notes": "مورد اللحوم الحمراء"
+    }
+  ],
+  "inventory_movements": [
+    {
+      "id": 1,
+      "warehouse_id": 1,
+      "ingredient_id": 1,
+      "field": "quantity",
+      "before_qty": 0,
+      "delta": 200,
+      "after_qty": 200,
+      "ref_type": "transaction",
+      "ref_id": 1,
+      "user": "admin",
+      "notes": "افتتاحي",
+      "created_at": "2026-07-01T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "warehouse_id": 1,
+      "ingredient_id": 2,
+      "field": "quantity",
+      "before_qty": 0,
+      "delta": 150,
+      "after_qty": 150,
+      "ref_type": "transaction",
+      "ref_id": 1,
+      "user": "admin",
+      "notes": "افتتاحي",
+      "created_at": "2026-07-01T08:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "warehouse_id": 1,
+      "ingredient_id": 3,
+      "field": "quantity",
+      "before_qty": 0,
+      "delta": 80,
+      "after_qty": 80,
+      "ref_type": "transaction",
+      "ref_id": 1,
+      "user": "admin",
+      "notes": "افتتاحي",
+      "created_at": "2026-07-01T08:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "warehouse_id": 1,
+      "ingredient_id": 1,
+      "field": "quantity",
+      "before_qty": 200,
+      "delta": -50,
+      "after_qty": 150,
+      "ref_type": "transaction",
+      "ref_id": 2,
+      "user": "admin",
+      "notes": "صرف للمطبخ",
+      "created_at": "2026-07-05T10:30:00.000Z"
+    },
+    {
+      "id": 5,
+      "warehouse_id": 2,
+      "ingredient_id": 1,
+      "field": "quantity",
+      "before_qty": 0,
+      "delta": 30,
+      "after_qty": 30,
+      "ref_type": "transfer",
+      "ref_id": 1,
+      "user": "admin",
+      "notes": "تحويل وارد من مخزن 1",
+      "created_at": "2026-07-10T09:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "warehouse_id": 1,
+      "ingredient_id": 1,
+      "field": "quantity",
+      "before_qty": 150,
+      "delta": -30,
+      "after_qty": 120,
+      "ref_type": "transfer",
+      "ref_id": 1,
+      "user": "admin",
+      "notes": "تحويل صادر إلى مخزن 2",
+      "created_at": "2026-07-10T09:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "warehouse_id": 1,
+      "ingredient_id": 4,
+      "field": "quantity",
+      "before_qty": 0,
+      "delta": 100,
+      "after_qty": 100,
+      "ref_type": "transaction",
+      "ref_id": 3,
+      "user": "admin",
+      "notes": "شراء",
+      "created_at": "2026-07-12T11:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "warehouse_id": 1,
+      "ingredient_id": 5,
+      "field": "quantity",
+      "before_qty": 0,
+      "delta": 50,
+      "after_qty": 50,
+      "ref_type": "transaction",
+      "ref_id": 4,
+      "user": "admin",
+      "notes": "شراء",
+      "created_at": "2026-07-12T11:30:00.000Z"
+    }
+  ],
+  "stock_batches": [
+    {
+      "id": 1,
+      "ingredient_id": 1,
+      "warehouse_id": 1,
+      "batch_number": "B-2026-001",
+      "received_date": "2026-07-01",
+      "expiry_date": "2026-12-31",
+      "quantity": 200,
+      "original_quantity": 200,
+      "cost": 15.5,
+      "supplier_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "ingredient_id": 2,
+      "warehouse_id": 1,
+      "batch_number": "B-2026-002",
+      "received_date": "2026-07-01",
+      "expiry_date": "2027-06-30",
+      "quantity": 150,
+      "original_quantity": 150,
+      "cost": 18,
+      "supplier_id": 1,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "ingredient_id": 3,
+      "warehouse_id": 1,
+      "batch_number": "B-2026-003",
+      "received_date": "2026-07-01",
+      "expiry_date": "2026-10-31",
+      "quantity": 80,
+      "original_quantity": 80,
+      "cost": 35,
+      "supplier_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "ingredient_id": 5,
+      "warehouse_id": 1,
+      "batch_number": "B-2026-004",
+      "received_date": "2026-07-12",
+      "expiry_date": "2026-07-25",
+      "quantity": 50,
+      "original_quantity": 50,
+      "cost": 180,
+      "supplier_id": 5,
+      "status": "expiring_soon"
+    },
+    {
+      "id": 5,
+      "ingredient_id": 7,
+      "warehouse_id": 1,
+      "batch_number": "B-2026-005",
+      "received_date": "2026-06-15",
+      "expiry_date": "2026-07-20",
+      "quantity": 30,
+      "original_quantity": 60,
+      "cost": 8,
+      "supplier_id": 4,
+      "status": "expiring_soon"
+    }
+  ],
+  "inventory_notifications": [
+    {
+      "id": 1,
+      "type": "low_stock",
+      "ingredient_id": 5,
+      "warehouse_id": 1,
+      "message": "اللحم البقري وصل للحد الأدنى (10/15 كجم)",
+      "severity": "warning",
+      "read": false,
+      "created_at": "2026-07-19T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "type": "expiry_warning",
+      "ingredient_id": 5,
+      "warehouse_id": 1,
+      "batch_id": 4,
+      "message": "اللحم البقري (تشغيلة B-2026-004) ينتهي خلال 6 أيام",
+      "severity": "warning",
+      "read": false,
+      "created_at": "2026-07-19T08:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "type": "expiry_warning",
+      "ingredient_id": 7,
+      "warehouse_id": 1,
+      "batch_id": 5,
+      "message": "اللبن (تشغيلة B-2026-005) ينتهي خلال 1 يوم",
+      "severity": "critical",
+      "read": false,
+      "created_at": "2026-07-19T08:00:00.000Z"
+    }
+  ],
+  "fingerprint_devices": [
+    {
+      "id": 1,
+      "name": "جهاز البصمة الرئيسي - المدخل",
+      "ip_address": "192.168.1.201",
+      "port": "4370",
+      "is_active": "1",
+      "branch_id": 1,
+      "device_type": "zkteco",
+      "protocol": "tcp"
+    }
+  ],
+  "supplier_ratings": [
+    {
+      "id": 1,
+      "supplier_id": 1,
+      "rating": 5,
+      "criteria": "جودة المنتجات",
+      "comment": "جودة ممتازة",
+      "created_at": "2026-07-15"
+    },
+    {
+      "id": 2,
+      "supplier_id": 1,
+      "rating": 4,
+      "criteria": "الالتزام بموعد التسليم",
+      "comment": "التزام جيد",
+      "created_at": "2026-07-15"
+    },
+    {
+      "id": 3,
+      "supplier_id": 2,
+      "rating": 5,
+      "criteria": "جودة المنتجات",
+      "comment": "دقيق عالي الجودة",
+      "created_at": "2026-07-10"
+    },
+    {
+      "id": 4,
+      "supplier_id": 3,
+      "rating": 3,
+      "criteria": "الالتزام بموعد التسليم",
+      "comment": "تأخر مرة واحدة",
+      "created_at": "2026-07-12"
+    },
+    {
+      "id": 5,
+      "supplier_id": 5,
+      "rating": 5,
+      "criteria": "أسعار تنافسية",
+      "comment": "أفضل الأسعار",
+      "created_at": "2026-07-14"
+    }
+  ],
+  "material_requests": [
+    {
+      "id": 1,
+      "request_no": "MR-2026-0001",
+      "warehouse_id": 1,
+      "request_type": "production",
+      "department": "قسم التجهيز والإنتاج",
+      "cost_center": "CC-PROD-01",
+      "work_order_no": "WO-2026-084",
+      "priority": "urgent",
+      "needed_date": "2026-08-21",
+      "status": "approved",
+      "notes": "صرف خامات لإنتاج وجبات الحفلات والأعراس",
+      "total_value": 245.5,
+      "request_date": "2026-08-20T08:30:00.000Z",
+      "created_at": "2026-08-20T08:30:00.000Z",
+      "approved_by_dept": "أحمد السعيد (مدير الإنتاج)",
+      "approved_dept_at": "2026-08-20T09:00:00.000Z",
+      "approved_by_wh": "سامي محمود (مدير المخازن)",
+      "approved_wh_at": "2026-08-20T09:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "request_no": "MR-2026-0002",
+      "warehouse_id": 1,
+      "request_type": "operational",
+      "department": "المطبخ المركزي الرئيسي",
+      "cost_center": "CC-KITCHEN-MAIN",
+      "work_order_no": null,
+      "priority": "high",
+      "needed_date": "2026-08-22",
+      "status": "pending_dept",
+      "notes": "مكونات استهلاكية يومية لتشغيل المطبخ وخدمة المطعم",
+      "total_value": 88,
+      "request_date": "2026-08-21T10:15:00.000Z",
+      "created_at": "2026-08-21T10:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "request_no": "MR-2026-0003",
+      "warehouse_id": 2,
+      "request_type": "maintenance",
+      "department": "إدارة الصيانة والخدمات العامة",
+      "cost_center": "CC-MAINT-04",
+      "work_order_no": "MO-2026-019",
+      "priority": "medium",
+      "needed_date": "2026-08-23",
+      "status": "pending_wh",
+      "notes": "زيوت وقطع غيار لصيانة أفران المطبخ وثلاجات التبريد",
+      "total_value": 135,
+      "request_date": "2026-08-21T11:45:00.000Z",
+      "created_at": "2026-08-21T11:45:00.000Z",
+      "approved_by_dept": "م. طارق عبد الرحمن",
+      "approved_dept_at": "2026-08-21T12:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "request_no": "MR-2026-0004",
+      "warehouse_id": 1,
+      "request_type": "custody",
+      "department": "التدبير الفندقي والضيافة",
+      "cost_center": "CC-HOUSEKEEPING",
+      "work_order_no": null,
+      "priority": "low",
+      "needed_date": "2026-08-20",
+      "status": "issued",
+      "notes": "مواد نظافة وتطهير وصرف عهدة للمشرفين",
+      "total_value": 62.5,
+      "request_date": "2026-08-20T07:00:00.000Z",
+      "created_at": "2026-08-20T07:00:00.000Z",
+      "approved_by_dept": "فاطمة النجار",
+      "approved_dept_at": "2026-08-20T07:30:00.000Z",
+      "approved_by_wh": "سامي محمود",
+      "approved_wh_at": "2026-08-20T08:00:00.000Z",
+      "issued_by": "سامي محمود",
+      "issued_at": "2026-08-20T08:15:00.000Z",
+      "recipient_name": "خالد منصور (مشرف القسم)"
+    },
+    {
+      "id": 5,
+      "request_no": "MR-2026-0005",
+      "warehouse_id": 1,
+      "request_type": "project",
+      "department": "تطوير فرع الشاطئ الجديد",
+      "cost_center": "CC-PROJ-BEACH",
+      "work_order_no": "PRJ-2026-B02",
+      "priority": "medium",
+      "needed_date": "2026-08-25",
+      "status": "partially_issued",
+      "notes": "تجهيزات ومواد أولية لتجهيز المنيو التجريبي للفرع الجديد",
+      "total_value": 320,
+      "request_date": "2026-08-19T14:20:00.000Z",
+      "created_at": "2026-08-19T14:20:00.000Z",
+      "approved_by_dept": "كريم يوسف",
+      "approved_dept_at": "2026-08-19T15:00:00.000Z",
+      "approved_by_wh": "سامي محمود",
+      "approved_wh_at": "2026-08-19T15:30:00.000Z",
+      "issued_by": "سامي محمود",
+      "issued_at": "2026-08-19T16:00:00.000Z",
+      "recipient_name": "عادل حسني"
+    }
+  ],
+  "material_request_items": [
+    {
+      "id": 1,
+      "request_id": 1,
+      "ingredient_id": 1,
+      "requested_qty": 50,
+      "approved_qty": 50,
+      "issued_qty": 0,
+      "unit_cost": 15.5,
+      "uom": "كجم",
+      "purpose": "عجين وفطائر",
+      "notes": "درجة أولى"
+    },
+    {
+      "id": 2,
+      "request_id": 1,
+      "ingredient_id": 2,
+      "requested_qty": 30,
+      "approved_qty": 30,
+      "issued_qty": 0,
+      "unit_cost": 18,
+      "uom": "كجم",
+      "purpose": "صلصات وتتبيل",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "request_id": 1,
+      "ingredient_id": 3,
+      "requested_qty": 15,
+      "approved_qty": 15,
+      "issued_qty": 0,
+      "unit_cost": 35,
+      "uom": "لتر",
+      "purpose": "قلي وطهي",
+      "notes": "نقي"
+    },
+    {
+      "id": 4,
+      "request_id": 2,
+      "ingredient_id": 4,
+      "requested_qty": 25,
+      "approved_qty": 25,
+      "issued_qty": 0,
+      "unit_cost": 8.5,
+      "uom": "كجم",
+      "purpose": "تجهيز أطباق جانبية",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "request_id": 2,
+      "ingredient_id": 5,
+      "requested_qty": 10,
+      "approved_qty": 10,
+      "issued_qty": 0,
+      "unit_cost": 65,
+      "uom": "كجم",
+      "purpose": "مشويات ستيك",
+      "notes": "طازج"
+    },
+    {
+      "id": 6,
+      "request_id": 3,
+      "ingredient_id": 1,
+      "requested_qty": 10,
+      "approved_qty": 10,
+      "issued_qty": 0,
+      "unit_cost": 15.5,
+      "uom": "كجم",
+      "purpose": "صيانة",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "request_id": 3,
+      "ingredient_id": 3,
+      "requested_qty": 5,
+      "approved_qty": 5,
+      "issued_qty": 0,
+      "unit_cost": 35,
+      "uom": "لتر",
+      "purpose": "تزييت التروس",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "request_id": 4,
+      "ingredient_id": 4,
+      "requested_qty": 20,
+      "approved_qty": 20,
+      "issued_qty": 20,
+      "unit_cost": 8.5,
+      "uom": "كجم",
+      "purpose": "نظافة",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "request_id": 5,
+      "ingredient_id": 1,
+      "requested_qty": 40,
+      "approved_qty": 40,
+      "issued_qty": 20,
+      "unit_cost": 15.5,
+      "uom": "كجم",
+      "purpose": "تجارب الخبز",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "request_id": 5,
+      "ingredient_id": 2,
+      "requested_qty": 30,
+      "approved_qty": 30,
+      "issued_qty": 15,
+      "unit_cost": 18,
+      "uom": "كجم",
+      "purpose": "تجارب الحلويات",
+      "notes": ""
+    }
+  ],
+  "treasury_custody_types": [
+    {
+      "id": 1,
+      "code": "CUST-CASH",
+      "name_ar": "عهدة نقدية / مشتريات ونثريات",
+      "name_en": "Cash Custody / Petty Cash",
+      "category": "cash",
+      "requires_asset": false,
+      "requires_inventory": false,
+      "requires_treasury": true,
+      "max_limit": 50000,
+      "default_duration_days": 30,
+      "is_active": true,
+      "description": "عهدة مالية نقدية للمشتريات العاجلة والمصروفات اليومية والنثريات"
+    },
+    {
+      "id": 2,
+      "code": "CUST-ASSET",
+      "name_ar": "عهدة أصول ثابتة",
+      "name_en": "Fixed Asset Custody",
+      "category": "asset",
+      "requires_asset": true,
+      "requires_inventory": false,
+      "requires_treasury": false,
+      "max_limit": 0,
+      "default_duration_days": 365,
+      "is_active": true,
+      "description": "تسليم أصول ثابتة مسجلة بسجل الأصول (مكاتب، أجهزة، معدات ثقيلة) للموظف"
+    },
+    {
+      "id": 3,
+      "code": "CUST-EQUIP",
+      "name_ar": "عهدة أجهزة ومعدات إلكترونية",
+      "name_en": "Equipment & Hardware Custody",
+      "category": "equipment",
+      "requires_asset": true,
+      "requires_inventory": false,
+      "requires_treasury": false,
+      "max_limit": 0,
+      "default_duration_days": 180,
+      "is_active": true,
+      "description": "تسليم لابتوبات، هواتف، أجهزة كاشير، طابعات وشاشات للموظف للعمل"
+    },
+    {
+      "id": 4,
+      "code": "CUST-TOOLS",
+      "name_ar": "عهدة أدوات ومعدات تشغيل",
+      "name_en": "Tools & Operations Custody",
+      "category": "tools",
+      "requires_asset": false,
+      "requires_inventory": false,
+      "requires_treasury": false,
+      "max_limit": 0,
+      "default_duration_days": 90,
+      "is_active": true,
+      "description": "أدوات الصيانة والمطبخ والتشغيل الفندقي والعدد اليدوية"
+    },
+    {
+      "id": 5,
+      "code": "CUST-INV",
+      "name_ar": "عهدة أصناف ومواد من المخزن",
+      "name_en": "Warehouse Inventory Custody",
+      "category": "inventory",
+      "requires_asset": false,
+      "requires_inventory": true,
+      "requires_treasury": false,
+      "max_limit": 0,
+      "default_duration_days": 30,
+      "is_active": true,
+      "description": "صرف مواد وخامات من المخزن تحت عهدة المشرف للاستهلاك والتشغيل"
+    },
+    {
+      "id": 6,
+      "code": "CUST-VEHICLE",
+      "name_ar": "عهدة سيارة أو مركبة أو دراجة",
+      "name_en": "Vehicle / Fleet Custody",
+      "category": "vehicle",
+      "requires_asset": true,
+      "requires_inventory": false,
+      "requires_treasury": false,
+      "max_limit": 0,
+      "default_duration_days": 365,
+      "is_active": true,
+      "description": "تسليم مركبات التوصيل أو سيارات الشركة لسائق أو مندوب محدد"
+    },
+    {
+      "id": 7,
+      "code": "CUST-KEYS",
+      "name_ar": "عهدة مفاتيح وكروت وتصاريح أمنية",
+      "name_en": "Keys, Badges & Permits Custody",
+      "category": "keys_permits",
+      "requires_asset": false,
+      "requires_inventory": false,
+      "requires_treasury": false,
+      "max_limit": 0,
+      "default_duration_days": 365,
+      "is_active": true,
+      "description": "مفاتيح الخزائن، كروت الدخول الذكية، تصاريح البوابات والأختام"
+    },
+    {
+      "id": 8,
+      "code": "CUST-TEMP",
+      "name_ar": "عهدة نقدية مؤقتة لمهمة محددة",
+      "name_en": "Temporary Project Custody",
+      "category": "temporary",
+      "requires_asset": false,
+      "requires_inventory": false,
+      "requires_treasury": true,
+      "max_limit": 20000,
+      "default_duration_days": 15,
+      "is_active": true,
+      "description": "عهدة تصرف لمهمة مؤقتة أو مشروع خارجي محدد المدة بحد أقصى 15 يوماً"
+    },
+    {
+      "id": 9,
+      "code": "CUST-PERM",
+      "name_ar": "عهدة تشغيلية مستديمة (Imprest)",
+      "name_en": "Permanent Operational Custody",
+      "category": "permanent",
+      "requires_asset": false,
+      "requires_inventory": false,
+      "requires_treasury": true,
+      "max_limit": 100000,
+      "default_duration_days": 365,
+      "is_active": true,
+      "description": "عهدة دائمة متجددة للمشرفين يتم استعاضتها دورياً بناءً على فواتير التسوية"
+    }
+  ],
+  "treasury_settings": [
+    {
+      "key": "custody_approval_tier1_limit",
+      "value": "5000",
+      "description": "حد موافقة مدير القسم / الفرع للعهدة (ج.م)"
+    },
+    {
+      "key": "custody_approval_tier2_limit",
+      "value": "20000",
+      "description": "حد موافقة المدير المالي للعهدة (ج.م)"
+    },
+    {
+      "key": "custody_approval_tier3_limit",
+      "value": "50000",
+      "description": "حد موافقة الإدارة العليا / المدير العام (ج.م)"
+    },
+    {
+      "key": "custody_default_due_days",
+      "value": "30",
+      "description": "المدة الافتراضية للعهدة المؤقتة بالأيام"
+    },
+    {
+      "key": "custody_auto_journal_posting",
+      "value": "true",
+      "description": "إنشاء القيود اليومية التلقائية عند الصرف والتسوية"
+    },
+    {
+      "key": "custody_allow_partial_settlement",
+      "value": "true",
+      "description": "السماح بالتسوية الجزئية للعهدة"
+    },
+    {
+      "key": "custody_overdue_warning_days",
+      "value": "3",
+      "description": "عدد أيام التنبيه قبل موعد استحقاق العهدة"
+    },
+    {
+      "key": "transfer_approval_tier1_limit",
+      "value": "5000",
+      "description": "حد اعتماد مدير الفرع للتحويل المالي (ج.م)"
+    },
+    {
+      "key": "transfer_approval_tier2_limit",
+      "value": "20000",
+      "description": "حد اعتماد المدير المالي للتحويل المالي (ج.م)"
+    },
+    {
+      "key": "transfer_approval_tier3_limit",
+      "value": "100000",
+      "description": "حد اعتماد الإدارة العليا للتحويل المالي (ج.م)"
+    },
+    {
+      "key": "transfer_auto_journal_posting",
+      "value": "true",
+      "description": "إنشاء وترحيل القيود المحاسبية للتحويل آلياً"
+    },
+    {
+      "key": "transfer_require_receipt_for_all",
+      "value": "true",
+      "description": "اشتراط تأكيد الاستلام الفعلي من الخزينة المستهدفة"
+    },
+    {
+      "key": "transfer_allow_negative_source",
+      "value": "false",
+      "description": "السماح بالتحويل بالسالب (غير موصى به)"
+    },
+    {
+      "id": 1,
+      "key": "allow_negative_balance",
+      "value": "false",
+      "description": "منع السحب بالسالب عند عجز رصيد الخزينة"
+    },
+    {
+      "id": 2,
+      "key": "require_notes_for_transaction",
+      "value": "true",
+      "description": "إلزامية كتابة سبب أو بيان الحركة المالية"
+    },
+    {
+      "id": 3,
+      "key": "default_currency",
+      "value": "EGP",
+      "description": "العملة الافتراضية للتقارير المالية المجمعة"
+    },
+    {
+      "id": 4,
+      "key": "decimal_places",
+      "value": "2",
+      "description": "عدد الخانات العشرية للمبالغ والتقارير"
+    },
+    {
+      "id": 5,
+      "key": "dual_auth_threshold",
+      "value": "50000",
+      "description": "حد المبلغ الذي يتطلب موافقة اعتماد مزدوج (ج.م)"
+    },
+    {
+      "id": 6,
+      "key": "financial_period_locking_date",
+      "value": "",
+      "description": "تاريخ إغلاق الفترة المالية لمنع التعديلات السابقة"
+    },
+    {
+      "id": 7,
+      "key": "auto_post_cash_discrepancy",
+      "value": "true",
+      "description": "إنشاء قيد محاسبي تلقائي لفروقات الجرد (عجز/زيادة)"
+    },
+    {
+      "id": 8,
+      "key": "custody_approval_tier1_limit",
+      "value": "5000",
+      "description": "حد موافقة مدير القسم / الفرع للعهدة (ج.م)"
+    },
+    {
+      "id": 9,
+      "key": "custody_approval_tier2_limit",
+      "value": "20000",
+      "description": "حد موافقة المدير المالي للعهدة (ج.م)"
+    },
+    {
+      "id": 10,
+      "key": "custody_approval_tier3_limit",
+      "value": "50000",
+      "description": "حد موافقة الإدارة العليا / المدير العام (ج.م)"
+    },
+    {
+      "id": 11,
+      "key": "custody_default_due_days",
+      "value": "30",
+      "description": "المدة الافتراضية للعهدة المؤقتة بالأيام"
+    },
+    {
+      "id": 12,
+      "key": "custody_auto_journal_posting",
+      "value": "true",
+      "description": "إنشاء القيود اليومية التلقائية عند الصرف والتسوية"
+    },
+    {
+      "id": 13,
+      "key": "custody_allow_partial_settlement",
+      "value": "true",
+      "description": "السماح بالتسوية الجزئية للعهدة"
+    },
+    {
+      "id": 14,
+      "key": "custody_overdue_warning_days",
+      "value": "3",
+      "description": "عدد أيام التنبيه قبل موعد استحقاق العهدة"
+    },
+    {
+      "id": 15,
+      "key": "allow_negative_balance",
+      "value": "false",
+      "description": "منع السحب بالسالب عند عجز رصيد الخزينة"
+    },
+    {
+      "id": 16,
+      "key": "require_notes_for_transaction",
+      "value": "true",
+      "description": "إلزامية كتابة سبب أو بيان الحركة المالية"
+    },
+    {
+      "id": 17,
+      "key": "default_currency",
+      "value": "EGP",
+      "description": "العملة الافتراضية للتقارير المالية المجمعة"
+    },
+    {
+      "id": 18,
+      "key": "decimal_places",
+      "value": "2",
+      "description": "عدد الخانات العشرية للمبالغ والتقارير"
+    },
+    {
+      "id": 19,
+      "key": "dual_auth_threshold",
+      "value": "50000",
+      "description": "حد المبلغ الذي يتطلب موافقة اعتماد مزدوج (ج.م)"
+    },
+    {
+      "id": 20,
+      "key": "financial_period_locking_date",
+      "value": "",
+      "description": "تاريخ إغلاق الفترة المالية لمنع التعديلات السابقة"
+    },
+    {
+      "id": 21,
+      "key": "auto_post_cash_discrepancy",
+      "value": "true",
+      "description": "إنشاء قيد محاسبي تلقائي لفروقات الجرد (عجز/زيادة)"
+    },
+    {
+      "id": 22,
+      "key": "custody_approval_tier1_limit",
+      "value": "5000",
+      "description": "حد موافقة مدير القسم / الفرع للعهدة (ج.م)"
+    },
+    {
+      "id": 23,
+      "key": "custody_approval_tier2_limit",
+      "value": "20000",
+      "description": "حد موافقة المدير المالي للعهدة (ج.م)"
+    },
+    {
+      "id": 24,
+      "key": "custody_approval_tier3_limit",
+      "value": "50000",
+      "description": "حد موافقة الإدارة العليا / المدير العام (ج.م)"
+    },
+    {
+      "id": 25,
+      "key": "custody_default_due_days",
+      "value": "30",
+      "description": "المدة الافتراضية للعهدة المؤقتة بالأيام"
+    },
+    {
+      "id": 26,
+      "key": "custody_auto_journal_posting",
+      "value": "true",
+      "description": "إنشاء القيود اليومية التلقائية عند الصرف والتسوية"
+    },
+    {
+      "id": 27,
+      "key": "custody_allow_partial_settlement",
+      "value": "true",
+      "description": "السماح بالتسوية الجزئية للعهدة"
+    },
+    {
+      "id": 28,
+      "key": "custody_overdue_warning_days",
+      "value": "3",
+      "description": "عدد أيام التنبيه قبل موعد استحقاق العهدة"
+    },
+    {
+      "id": 29,
+      "key": "allow_negative_balance",
+      "value": "false",
+      "description": "منع السحب بالسالب عند عجز رصيد الخزينة"
+    },
+    {
+      "id": 30,
+      "key": "require_notes_for_transaction",
+      "value": "true",
+      "description": "إلزامية كتابة سبب أو بيان الحركة المالية"
+    },
+    {
+      "id": 31,
+      "key": "default_currency",
+      "value": "EGP",
+      "description": "العملة الافتراضية للتقارير المالية المجمعة"
+    },
+    {
+      "id": 32,
+      "key": "decimal_places",
+      "value": "2",
+      "description": "عدد الخانات العشرية للمبالغ والتقارير"
+    },
+    {
+      "id": 33,
+      "key": "dual_auth_threshold",
+      "value": "50000",
+      "description": "حد المبلغ الذي يتطلب موافقة اعتماد مزدوج (ج.م)"
+    },
+    {
+      "id": 34,
+      "key": "financial_period_locking_date",
+      "value": "",
+      "description": "تاريخ إغلاق الفترة المالية لمنع التعديلات السابقة"
+    },
+    {
+      "id": 35,
+      "key": "auto_post_cash_discrepancy",
+      "value": "true",
+      "description": "إنشاء قيد محاسبي تلقائي لفروقات الجرد (عجز/زيادة)"
+    },
+    {
+      "id": 36,
+      "key": "custody_approval_tier1_limit",
+      "value": "5000",
+      "description": "حد موافقة مدير القسم / الفرع للعهدة (ج.م)"
+    },
+    {
+      "id": 37,
+      "key": "custody_approval_tier2_limit",
+      "value": "20000",
+      "description": "حد موافقة المدير المالي للعهدة (ج.م)"
+    },
+    {
+      "id": 38,
+      "key": "custody_approval_tier3_limit",
+      "value": "50000",
+      "description": "حد موافقة الإدارة العليا / المدير العام (ج.م)"
+    },
+    {
+      "id": 39,
+      "key": "custody_default_due_days",
+      "value": "30",
+      "description": "المدة الافتراضية للعهدة المؤقتة بالأيام"
+    },
+    {
+      "id": 40,
+      "key": "custody_auto_journal_posting",
+      "value": "true",
+      "description": "إنشاء القيود اليومية التلقائية عند الصرف والتسوية"
+    },
+    {
+      "id": 41,
+      "key": "custody_allow_partial_settlement",
+      "value": "true",
+      "description": "السماح بالتسوية الجزئية للعهدة"
+    },
+    {
+      "id": 42,
+      "key": "custody_overdue_warning_days",
+      "value": "3",
+      "description": "عدد أيام التنبيه قبل موعد استحقاق العهدة"
+    },
+    {
+      "id": 43,
+      "key": "allow_negative_balance",
+      "value": "false",
+      "description": "منع السحب بالسالب عند عجز رصيد الخزينة"
+    },
+    {
+      "id": 44,
+      "key": "require_notes_for_transaction",
+      "value": "true",
+      "description": "إلزامية كتابة سبب أو بيان الحركة المالية"
+    },
+    {
+      "id": 45,
+      "key": "default_currency",
+      "value": "EGP",
+      "description": "العملة الافتراضية للتقارير المالية المجمعة"
+    },
+    {
+      "id": 46,
+      "key": "decimal_places",
+      "value": "2",
+      "description": "عدد الخانات العشرية للمبالغ والتقارير"
+    },
+    {
+      "id": 47,
+      "key": "dual_auth_threshold",
+      "value": "50000",
+      "description": "حد المبلغ الذي يتطلب موافقة اعتماد مزدوج (ج.م)"
+    },
+    {
+      "id": 48,
+      "key": "financial_period_locking_date",
+      "value": "",
+      "description": "تاريخ إغلاق الفترة المالية لمنع التعديلات السابقة"
+    },
+    {
+      "id": 49,
+      "key": "auto_post_cash_discrepancy",
+      "value": "true",
+      "description": "إنشاء قيد محاسبي تلقائي لفروقات الجرد (عجز/زيادة)"
+    },
+    {
+      "id": 50,
+      "key": "custody_approval_tier1_limit",
+      "value": "5000",
+      "description": "حد موافقة مدير القسم / الفرع للعهدة (ج.م)"
+    },
+    {
+      "id": 51,
+      "key": "custody_approval_tier2_limit",
+      "value": "20000",
+      "description": "حد موافقة المدير المالي للعهدة (ج.م)"
+    },
+    {
+      "id": 52,
+      "key": "custody_approval_tier3_limit",
+      "value": "50000",
+      "description": "حد موافقة الإدارة العليا / المدير العام (ج.م)"
+    },
+    {
+      "id": 53,
+      "key": "custody_default_due_days",
+      "value": "30",
+      "description": "المدة الافتراضية للعهدة المؤقتة بالأيام"
+    },
+    {
+      "id": 54,
+      "key": "custody_auto_journal_posting",
+      "value": "true",
+      "description": "إنشاء القيود اليومية التلقائية عند الصرف والتسوية"
+    },
+    {
+      "id": 55,
+      "key": "custody_allow_partial_settlement",
+      "value": "true",
+      "description": "السماح بالتسوية الجزئية للعهدة"
+    },
+    {
+      "id": 56,
+      "key": "custody_overdue_warning_days",
+      "value": "3",
+      "description": "عدد أيام التنبيه قبل موعد استحقاق العهدة"
+    }
+  ],
+  "treasury_transfer_types": [
+    {
+      "id": 1,
+      "code": "TRF-SAFE-SAFE",
+      "name_ar": "تحويل بين الخزائن النقدية",
+      "name_en": "Safe to Safe Transfer",
+      "source_type": "safe",
+      "destination_type": "safe",
+      "requires_receipt_confirmation": true,
+      "requires_approval": true,
+      "max_limit": 100000,
+      "is_active": true,
+      "description": "نقل ونقل عهدة نقدية بين خزينة وأخرى في نفس الفرع أو فرع آخر"
+    },
+    {
+      "id": 2,
+      "code": "TRF-SAFE-BANK",
+      "name_ar": "إيداع نقدي من خزينة إلى بنك",
+      "name_en": "Safe to Bank Deposit",
+      "source_type": "safe",
+      "destination_type": "bank",
+      "requires_receipt_confirmation": true,
+      "requires_approval": true,
+      "max_limit": 500000,
+      "is_active": true,
+      "description": "إيداع إيرادات أو سيولة نقدية من الخزينة إلى الحساب البنكي"
+    },
+    {
+      "id": 3,
+      "code": "TRF-BANK-SAFE",
+      "name_ar": "سحب بنكي لتغذية الخزينة",
+      "name_en": "Bank Withdrawal to Safe",
+      "source_type": "bank",
+      "destination_type": "safe",
+      "requires_receipt_confirmation": true,
+      "requires_approval": true,
+      "max_limit": 300000,
+      "is_active": true,
+      "description": "صرف شيك أو سحب إلكتروني من البنك لتغذية سيولة الخزينة"
+    },
+    {
+      "id": 4,
+      "code": "TRF-BANK-BANK",
+      "name_ar": "تحويل بنكي بين الحسابات المصرفية",
+      "name_en": "Bank to Bank Transfer",
+      "source_type": "bank",
+      "destination_type": "bank",
+      "requires_receipt_confirmation": false,
+      "requires_approval": true,
+      "max_limit": 1000000,
+      "is_active": true,
+      "description": "تحويل مصرفي مباشر بين حسابات الشركة البنكية المختلفة"
+    },
+    {
+      "id": 5,
+      "code": "TRF-BRANCH",
+      "name_ar": "تحويل مالي بين الفروع",
+      "name_en": "Inter-Branch Transfer",
+      "source_type": "any",
+      "destination_type": "any",
+      "requires_receipt_confirmation": true,
+      "requires_approval": true,
+      "max_limit": 250000,
+      "is_active": true,
+      "description": "تحويل عهدة وسيولة مالية بين فروع الشركة"
+    },
+    {
+      "id": 6,
+      "code": "TRF-COSTCENTER",
+      "name_ar": "تحويل بين مراكز التكلفة",
+      "name_en": "Cost Center Transfer",
+      "source_type": "any",
+      "destination_type": "any",
+      "requires_receipt_confirmation": false,
+      "requires_approval": true,
+      "max_limit": 150000,
+      "is_active": true,
+      "description": "مناقلة مالية بين مراكز التكلفة والمشاريع"
+    }
+  ],
+  "treasury_transfers": [
+    {
+      "id": 1,
+      "transfer_number": "TRF-2026-000001",
+      "transfer_type_id": 1,
+      "transfer_type": "safe_to_safe",
+      "source_account_id": 1,
+      "destination_account_id": 2,
+      "source_branch_id": 1,
+      "destination_branch_id": 2,
+      "source_cost_center_id": 1,
+      "destination_cost_center_id": 2,
+      "transfer_date": "2026-08-18T10:00:00.000Z",
+      "value_date": "2026-08-18T10:00:00.000Z",
+      "source_currency": "EGP",
+      "destination_currency": "EGP",
+      "amount": 15000,
+      "exchange_rate": 1,
+      "destination_amount": 15000,
+      "exchange_difference": 0,
+      "transfer_fee": 0,
+      "fee_currency": "EGP",
+      "fee_borne_by": "company",
+      "purpose": "تغذية سيولة الخزينة النقدية لفرع الجيزة",
+      "category": "operational",
+      "statement": "تحويل نقدية لتغطية مدفوعات الموردين اليومية",
+      "notes": "تم النقل بواسطة المشرف المالي مع مندوب الفرع",
+      "status": "completed",
+      "source_balance_before": 125000,
+      "source_balance_after": 110000,
+      "destination_balance_before": 18000,
+      "destination_balance_after": 33000,
+      "sender_user_id": 1,
+      "receiver_user_id": 2,
+      "approved_by": 1,
+      "approved_at": "2026-08-18T10:15:00.000Z",
+      "executed_by": 1,
+      "executed_at": "2026-08-18T10:30:00.000Z",
+      "received_by": 1,
+      "received_at": "2026-08-18T12:00:00.000Z",
+      "receipt_notes": "تم استلام المبلغ نقداً ومطابقته بالكامل",
+      "journal_entry_id": 1,
+      "journal_entry_number": "JE-2026-0012",
+      "source_transaction_id": 101,
+      "destination_transaction_id": 102,
+      "created_by": 1,
+      "created_at": "2026-08-18T10:00:00.000Z",
+      "updated_at": "2026-08-18T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "transfer_number": "TRF-2026-000002",
+      "transfer_type_id": 2,
+      "transfer_type": "safe_to_bank",
+      "source_account_id": 1,
+      "destination_account_id": 3,
+      "source_branch_id": 1,
+      "destination_branch_id": 1,
+      "source_cost_center_id": 1,
+      "destination_cost_center_id": 1,
+      "transfer_date": "2026-08-23T09:30:00.000Z",
+      "value_date": "2026-08-23T09:30:00.000Z",
+      "source_currency": "EGP",
+      "destination_currency": "EGP",
+      "amount": 45000,
+      "exchange_rate": 1,
+      "destination_amount": 45000,
+      "exchange_difference": 0,
+      "transfer_fee": 50,
+      "fee_currency": "EGP",
+      "fee_borne_by": "source",
+      "purpose": "إيداع مبيعات نهاية الأسبوع بالبنك التجاري الدولي",
+      "category": "liquidity",
+      "statement": "إيداع إيرادات نقدية فائضة بالبنك",
+      "notes": "تم إرسال المندوب البنكي مع إيصال الإيداع",
+      "status": "pending_receipt",
+      "source_balance_before": 110000,
+      "source_balance_after": 64950,
+      "destination_balance_before": 450000,
+      "destination_balance_after": 495000,
+      "sender_user_id": 1,
+      "receiver_user_id": 1,
+      "approved_by": 1,
+      "approved_at": "2026-08-23T10:00:00.000Z",
+      "executed_by": 1,
+      "executed_at": "2026-08-23T10:30:00.000Z",
+      "created_by": 1,
+      "created_at": "2026-08-23T09:30:00.000Z",
+      "updated_at": "2026-08-23T10:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "transfer_number": "TRF-2026-000003",
+      "transfer_type_id": 4,
+      "transfer_type": "bank_to_bank",
+      "source_account_id": 3,
+      "destination_account_id": 4,
+      "source_branch_id": 1,
+      "destination_branch_id": 1,
+      "source_cost_center_id": 1,
+      "destination_cost_center_id": 1,
+      "transfer_date": "2026-08-24T11:00:00.000Z",
+      "value_date": "2026-08-24T11:00:00.000Z",
+      "source_currency": "USD",
+      "destination_currency": "EGP",
+      "amount": 5000,
+      "exchange_rate": 48.5,
+      "destination_amount": 242500,
+      "exchange_difference": 0,
+      "transfer_fee": 25,
+      "fee_currency": "USD",
+      "fee_borne_by": "company",
+      "purpose": "تحويل عملة أجنبية لصرف رواتب وتغذية حساب الجنيه",
+      "category": "payroll_funding",
+      "statement": "تحويل 5,000 دولار إلى الحساب الجاري بالجنيه المصري",
+      "notes": "تم الاتفاق على سعر صرف تفضيلي من مدير علاقات البنك",
+      "status": "pending_approval",
+      "source_balance_before": 50000,
+      "source_balance_after": 45000,
+      "destination_balance_before": 450000,
+      "destination_balance_after": 692500,
+      "sender_user_id": 1,
+      "created_by": 1,
+      "created_at": "2026-08-24T11:00:00.000Z",
+      "updated_at": "2026-08-24T11:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "transfer_number": "TRF-2026-000004",
+      "transfer_type_id": 5,
+      "transfer_type": "branch_transfer",
+      "source_account_id": 2,
+      "destination_account_id": 1,
+      "source_branch_id": 2,
+      "destination_branch_id": 1,
+      "source_cost_center_id": 2,
+      "destination_cost_center_id": 1,
+      "transfer_date": "2026-08-24T14:00:00.000Z",
+      "value_date": "2026-08-24T14:00:00.000Z",
+      "source_currency": "EGP",
+      "destination_currency": "EGP",
+      "amount": 8000,
+      "exchange_rate": 1,
+      "destination_amount": 8000,
+      "exchange_difference": 0,
+      "transfer_fee": 0,
+      "fee_currency": "EGP",
+      "fee_borne_by": "company",
+      "purpose": "إعادة فائض سيولة فرع الجيزة إلى الإدارة العامة",
+      "category": "branch_replenishment",
+      "statement": "رد فائض نقدية بعد إتمام عمليات الصيانة",
+      "notes": "في انتظار إشعار التنفيذ من أمين الخزينة",
+      "status": "approved",
+      "approved_by": 1,
+      "approved_at": "2026-08-24T14:30:00.000Z",
+      "sender_user_id": 1,
+      "created_by": 1,
+      "created_at": "2026-08-24T14:00:00.000Z",
+      "updated_at": "2026-08-24T14:30:00.000Z"
+    },
+    {
+      "id": 5,
+      "transfer_number": "TRF-2026-000005",
+      "transfer_type_id": 1,
+      "transfer_type": "safe_to_safe",
+      "source_account_id": 1,
+      "destination_account_id": 2,
+      "source_branch_id": 1,
+      "destination_branch_id": 2,
+      "source_cost_center_id": 1,
+      "destination_cost_center_id": 2,
+      "transfer_date": "2026-08-24T15:00:00.000Z",
+      "value_date": "2026-08-24T15:00:00.000Z",
+      "source_currency": "EGP",
+      "destination_currency": "EGP",
+      "amount": 3500,
+      "exchange_rate": 1,
+      "destination_amount": 3500,
+      "exchange_difference": 0,
+      "transfer_fee": 0,
+      "fee_currency": "EGP",
+      "fee_borne_by": "company",
+      "purpose": "مسودة طلب تحويل لشراء مستلزمات مكتبية",
+      "category": "operational",
+      "statement": "طلب تحويل قيد التعديل",
+      "notes": "لم يتم الإرسال بعد",
+      "status": "draft",
+      "sender_user_id": 1,
+      "created_by": 1,
+      "created_at": "2026-08-24T15:00:00.000Z",
+      "updated_at": "2026-08-24T15:00:00.000Z"
+    }
+  ],
+  "treasury_transfer_audit_logs": [
+    {
+      "id": 1,
+      "transfer_id": 1,
+      "action_type": "create",
+      "old_values": null,
+      "new_values": {
+        "status": "draft"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "notes": "إنشاء طلب التحويل المالي TRF-2026-000001",
+      "created_at": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "transfer_id": 1,
+      "action_type": "approve",
+      "old_values": {
+        "status": "pending_approval"
+      },
+      "new_values": {
+        "status": "approved"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "notes": "اعتماد التحويل المالي من الإدارة المالية",
+      "created_at": "2026-08-18T10:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "transfer_id": 1,
+      "action_type": "execute",
+      "old_values": {
+        "status": "approved"
+      },
+      "new_values": {
+        "status": "pending_receipt"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "notes": "تنفيذ وخصم المبلغ من الخزينة المصدر",
+      "created_at": "2026-08-18T10:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "transfer_id": 1,
+      "action_type": "receive",
+      "old_values": {
+        "status": "pending_receipt"
+      },
+      "new_values": {
+        "status": "completed"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "notes": "استلام وإضافة المبلغ للخزينة المستهدفة وترحيل القيد المحاسبي JE-2026-0012",
+      "created_at": "2026-08-18T12:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "transfer_id": 2,
+      "action_type": "execute",
+      "old_values": {
+        "status": "approved"
+      },
+      "new_values": {
+        "status": "pending_receipt"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "notes": "تنفيذ إيداع بنكي ونقل الأموال",
+      "created_at": "2026-08-23T10:30:00.000Z"
+    }
+  ],
+  "treasury_transfer_attachments": [
+    {
+      "id": 1,
+      "transfer_id": 1,
+      "file_name": "bank_deposit_slip_001.pdf",
+      "file_url": "/uploads/transfer_receipt_001.pdf",
+      "file_type": "application/pdf",
+      "file_size": 142800,
+      "document_type": "transfer_voucher",
+      "notes": "إيصال تسليم النقدية موقع من أمين الخزينة",
+      "created_by": 1,
+      "created_at": "2026-08-18T12:05:00.000Z"
+    },
+    {
+      "id": 2,
+      "transfer_id": 2,
+      "file_name": "cib_deposit_receipt_45k.jpg",
+      "file_url": "/uploads/cib_deposit_45k.jpg",
+      "file_type": "image/jpeg",
+      "file_size": 254000,
+      "document_type": "bank_receipt",
+      "notes": "إشعار إيداع بنك CIB المعتمد",
+      "created_by": 1,
+      "created_at": "2026-08-23T10:35:00.000Z"
+    }
+  ],
+  "treasury_custodies": [
+    {
+      "id": 1,
+      "custody_number": "CUS-2026-0001",
+      "custody_type_id": 1,
+      "custody_type": "cash",
+      "employee_id": 1,
+      "employee_name": "أحمد محمود علي",
+      "employee_code": "EMP-101",
+      "department": "المشتريات والتموين",
+      "section": "المشتريات العاجلة",
+      "branch_id": 1,
+      "cost_center_id": 1,
+      "project_name": "مشتريات خضار ومواد طازجة للمطبخ",
+      "account_id": 1,
+      "amount": 5000,
+      "issued_amount": 5000,
+      "spent_amount": 3200,
+      "remaining_amount": 1800,
+      "returned_amount": 0,
+      "additional_due_amount": 0,
+      "currency": "EGP",
+      "status": "active",
+      "request_date": "2026-08-10T09:00:00.000Z",
+      "issue_date": "2026-08-11T10:30:00.000Z",
+      "due_date": "2026-09-10T10:30:00.000Z",
+      "duration_days": 30,
+      "purpose": "مشتريات طارئة ومستلزمات تغليف للمطبخ الرئيسي",
+      "notes": "عهدة شهرية دورية معتمدة من الإدارة المالية",
+      "approved_by": 1,
+      "approved_at": "2026-08-10T14:00:00.000Z",
+      "issued_by": 1,
+      "issued_at": "2026-08-11T10:30:00.000Z",
+      "received_at": "2026-08-11T11:00:00.000Z",
+      "created_by": 1,
+      "created_at": "2026-08-10T09:00:00.000Z",
+      "updated_at": "2026-08-15T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "custody_number": "CUS-2026-0002",
+      "custody_type_id": 3,
+      "custody_type": "equipment",
+      "employee_id": 2,
+      "employee_name": "محمود حسن إبراهيم",
+      "employee_code": "EMP-102",
+      "department": "تقنية المعلومات",
+      "section": "الدعم الفني والشبكات",
+      "branch_id": 1,
+      "cost_center_id": 3,
+      "project_name": "تجهيز نقطة بيع إضافية",
+      "account_id": null,
+      "amount": 0,
+      "issued_amount": 0,
+      "spent_amount": 0,
+      "remaining_amount": 0,
+      "returned_amount": 0,
+      "additional_due_amount": 0,
+      "currency": "EGP",
+      "status": "active",
+      "request_date": "2026-08-01T08:00:00.000Z",
+      "issue_date": "2026-08-02T11:00:00.000Z",
+      "due_date": "2027-02-02T11:00:00.000Z",
+      "duration_days": 180,
+      "purpose": "جهاز لابتوب Dell Latitude + جهاز كاشير باركود محمول",
+      "notes": "في حالة ممتازة مع الملحقات والشاحن الأصلي",
+      "approved_by": 1,
+      "approved_at": "2026-08-01T12:00:00.000Z",
+      "issued_by": 1,
+      "issued_at": "2026-08-02T11:00:00.000Z",
+      "received_at": "2026-08-02T11:30:00.000Z",
+      "created_by": 1,
+      "created_at": "2026-08-01T08:00:00.000Z",
+      "updated_at": "2026-08-02T11:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "custody_number": "CUS-2026-0003",
+      "custody_type_id": 1,
+      "custody_type": "cash",
+      "employee_id": 3,
+      "employee_name": "خالد سعيد فوزي",
+      "employee_code": "EMP-103",
+      "department": "الصيانة والمرافق",
+      "section": "صيانة أجهزة التبريد",
+      "branch_id": 1,
+      "cost_center_id": 5,
+      "project_name": "صيانة طارئة لوحدات التبريد",
+      "account_id": 1,
+      "amount": 8000,
+      "issued_amount": 8000,
+      "spent_amount": 8450,
+      "remaining_amount": 0,
+      "returned_amount": 0,
+      "additional_due_amount": 450,
+      "currency": "EGP",
+      "status": "pending_settlement",
+      "request_date": "2026-07-15T10:00:00.000Z",
+      "issue_date": "2026-07-16T12:00:00.000Z",
+      "due_date": "2026-08-15T12:00:00.000Z",
+      "duration_days": 30,
+      "purpose": "قطع غيار فريون وصمامات لثلاجات التخزين الرئيسية",
+      "notes": "تم استهلاك العهدة بالكامل مع وجود زيادة 450 ج.م مستحقة للموظف",
+      "approved_by": 1,
+      "approved_at": "2026-07-15T15:00:00.000Z",
+      "issued_by": 1,
+      "issued_at": "2026-07-16T12:00:00.000Z",
+      "received_at": "2026-07-16T12:30:00.000Z",
+      "created_by": 1,
+      "created_at": "2026-07-15T10:00:00.000Z",
+      "updated_at": "2026-08-18T16:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "custody_number": "CUS-2026-0004",
+      "custody_type_id": 6,
+      "custody_type": "vehicle",
+      "employee_id": 4,
+      "employee_name": "أيمن صلاح فتحي",
+      "employee_code": "EMP-104",
+      "department": "خدمة التوصيل",
+      "section": "دليفري فرع القاهرة",
+      "branch_id": 1,
+      "cost_center_id": 7,
+      "project_name": "دراجة نارية توصيل طلبات",
+      "account_id": null,
+      "amount": 0,
+      "issued_amount": 0,
+      "spent_amount": 0,
+      "remaining_amount": 0,
+      "returned_amount": 0,
+      "additional_due_amount": 0,
+      "currency": "EGP",
+      "status": "active",
+      "request_date": "2026-06-01T09:00:00.000Z",
+      "issue_date": "2026-06-01T14:00:00.000Z",
+      "due_date": "2027-06-01T14:00:00.000Z",
+      "duration_days": 365,
+      "purpose": "دراجة نارية هوجان موديل 2024 - رقم اللوحة (ق هـ د 4821)",
+      "notes": "تشمل خوذة أمان وحقيبة حرارية لحفظ الوجبات الساخنة",
+      "approved_by": 1,
+      "approved_at": "2026-06-01T10:00:00.000Z",
+      "issued_by": 1,
+      "issued_at": "2026-06-01T14:00:00.000Z",
+      "received_at": "2026-06-01T14:30:00.000Z",
+      "created_by": 1,
+      "created_at": "2026-06-01T09:00:00.000Z",
+      "updated_at": "2026-06-01T14:30:00.000Z"
+    },
+    {
+      "id": 5,
+      "custody_number": "CUS-2026-0005",
+      "custody_type_id": 1,
+      "custody_type": "cash",
+      "employee_id": 5,
+      "employee_name": "سارة نبيل عبد العزيز",
+      "employee_code": "EMP-105",
+      "department": "الضيافة والاستقبال",
+      "section": "خدمة العملاء والـ VIP",
+      "branch_id": 1,
+      "cost_center_id": 2,
+      "project_name": "تجهيزات وضيافة حفل افتتاح القاعة",
+      "account_id": 1,
+      "amount": 3500,
+      "issued_amount": 3500,
+      "spent_amount": 3100,
+      "remaining_amount": 0,
+      "returned_amount": 400,
+      "additional_due_amount": 0,
+      "currency": "EGP",
+      "status": "closed",
+      "request_date": "2026-07-01T10:00:00.000Z",
+      "issue_date": "2026-07-02T11:00:00.000Z",
+      "due_date": "2026-07-15T11:00:00.000Z",
+      "duration_days": 14,
+      "purpose": "شراء ورود وتنسيق طاولات وضيافة مميزة لحفل الافتتاح",
+      "notes": "تمت التصفية بالكامل ورد المتبقي 400 ج.م للخزينة الرئيسية بقسيمة REC-2026-0012",
+      "cleared_amount": 3100,
+      "clearance_notes": "تمت مراجعة الفواتير واعتماد التصفية",
+      "approved_by": 1,
+      "approved_at": "2026-07-01T12:00:00.000Z",
+      "issued_by": 1,
+      "issued_at": "2026-07-02T11:00:00.000Z",
+      "received_at": "2026-07-02T11:30:00.000Z",
+      "cleared_at": "2026-07-14T15:00:00.000Z",
+      "closed_by": 1,
+      "closed_at": "2026-07-14T15:00:00.000Z",
+      "created_by": 1,
+      "created_at": "2026-07-01T10:00:00.000Z",
+      "updated_at": "2026-07-14T15:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "custody_number": "CUS-2026-0006",
+      "custody_type_id": 8,
+      "custody_type": "temporary",
+      "employee_id": 6,
+      "employee_name": "سامي عبد الله عثمان",
+      "employee_code": "EMP-106",
+      "department": "التسويق والمبيعات",
+      "section": "المعارض والفعاليات",
+      "branch_id": 1,
+      "cost_center_id": 4,
+      "project_name": "مشاركة بمعرض الأغذية والضيافة الدولي",
+      "account_id": 1,
+      "amount": 15000,
+      "issued_amount": 15000,
+      "spent_amount": 11200,
+      "remaining_amount": 3800,
+      "returned_amount": 0,
+      "additional_due_amount": 0,
+      "currency": "EGP",
+      "status": "overdue",
+      "request_date": "2026-07-05T09:00:00.000Z",
+      "issue_date": "2026-07-06T10:00:00.000Z",
+      "due_date": "2026-08-06T10:00:00.000Z",
+      "duration_days": 30,
+      "purpose": "مصروفات إقامة الجناح والمطبوعات الإعلانية ونقل العينات",
+      "notes": "تجاوزت تاريخ الاستحقاق - تم إرسال تنبيه للموظف لتقديم المستندات والتسوية",
+      "approved_by": 1,
+      "approved_at": "2026-07-05T11:00:00.000Z",
+      "issued_by": 1,
+      "issued_at": "2026-07-06T10:00:00.000Z",
+      "received_at": "2026-07-06T10:30:00.000Z",
+      "created_by": 1,
+      "created_at": "2026-07-05T09:00:00.000Z",
+      "updated_at": "2026-08-20T10:00:00.000Z"
+    }
+  ],
+  "treasury_custody_expenses": [
+    {
+      "id": 1,
+      "custody_id": 1,
+      "expense_number": "EXP-001",
+      "expense_date": "2026-08-12",
+      "description": "شراء خضروات طازجة وأعشاب عطرية",
+      "category": "مشتريات أغذية",
+      "amount": 1450,
+      "tax_amount": 0,
+      "cost_center_id": 1,
+      "supplier_name": "سوق العبور المركزي",
+      "invoice_number": "INV-8891",
+      "payment_method": "نقدي",
+      "notes": "فاتورة ضريبية مرفقة",
+      "created_by": 1,
+      "created_at": "2026-08-12T14:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "custody_id": 1,
+      "expense_number": "EXP-002",
+      "expense_date": "2026-08-14",
+      "description": "أكياس وعلب تغليف ورقية صديقة للبيئة",
+      "category": "تغليف ومستهلكات",
+      "amount": 1750,
+      "tax_amount": 0,
+      "cost_center_id": 1,
+      "supplier_name": "مؤسسة الأهرام للتغليف",
+      "invoice_number": "INV-4320",
+      "payment_method": "نقدي",
+      "notes": "استلام من المورد مباشرة",
+      "created_by": 1,
+      "created_at": "2026-08-14T16:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "custody_id": 3,
+      "expense_number": "EXP-003",
+      "expense_date": "2026-07-20",
+      "description": "شحن غاز فريون R404A لثلاجة اللحوم",
+      "category": "صيانة",
+      "amount": 3600,
+      "tax_amount": 0,
+      "cost_center_id": 5,
+      "supplier_name": "المركز الهندسي للتبريد",
+      "invoice_number": "INV-902",
+      "payment_method": "نقدي",
+      "notes": "صيانة عاجلة",
+      "created_by": 1,
+      "created_at": "2026-07-20T11:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "custody_id": 3,
+      "expense_number": "EXP-004",
+      "expense_date": "2026-07-25",
+      "description": "استبدال ثرموستات ديجيتال ومروحة مكثف",
+      "category": "قطع غيار",
+      "amount": 4850,
+      "tax_amount": 0,
+      "cost_center_id": 5,
+      "supplier_name": "الشركة الفنية للتبريد والتكييف",
+      "invoice_number": "INV-1104",
+      "payment_method": "نقدي",
+      "notes": "قطع أصلية بضمان 6 شهور",
+      "created_by": 1,
+      "created_at": "2026-07-25T15:20:00.000Z"
+    },
+    {
+      "id": 5,
+      "custody_id": 6,
+      "expense_number": "EXP-005",
+      "expense_date": "2026-07-10",
+      "description": "طباعة بنرات وبروشورات ترويجية للمنيو",
+      "category": "دعاية وإعلان",
+      "amount": 6200,
+      "tax_amount": 0,
+      "cost_center_id": 4,
+      "supplier_name": "مطابع النيل الحديثة",
+      "invoice_number": "INV-7731",
+      "payment_method": "نقدي",
+      "notes": "1000 نسخة + 4 رول أب",
+      "created_by": 1,
+      "created_at": "2026-07-10T13:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "custody_id": 6,
+      "expense_number": "EXP-006",
+      "expense_date": "2026-07-15",
+      "description": "نقل ومبيت وتجهيز ديكور جناح المعرض",
+      "category": "مصاريف فعاليات",
+      "amount": 5000,
+      "tax_amount": 0,
+      "cost_center_id": 4,
+      "supplier_name": "شركة لوجستك إيجيبت",
+      "invoice_number": "INV-5510",
+      "payment_method": "نقدي",
+      "notes": "إيصالات معتمدة",
+      "created_by": 1,
+      "created_at": "2026-07-15T18:00:00.000Z"
+    }
+  ],
+  "treasury_custody_items": [
+    {
+      "id": 1,
+      "custody_id": 2,
+      "item_type": "fixed_asset",
+      "asset_id": 1,
+      "item_name": "لابتوب Dell Latitude 5420 i7 16GB",
+      "item_code": "AST-IT-001",
+      "serial_number": "SN-DELL-884920",
+      "barcode": "BC-6221004",
+      "quantity": 1,
+      "unit_cost": 32000,
+      "total_value": 32000,
+      "condition_on_issue": "ممتازة / جديدة",
+      "condition_on_return": null,
+      "status": "assigned",
+      "issued_at": "2026-08-02T11:00:00.000Z",
+      "notes": "مع الحقيبة والشاحن الأصلي",
+      "created_at": "2026-08-02T11:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "custody_id": 2,
+      "item_type": "fixed_asset",
+      "asset_id": 2,
+      "item_name": "قارئ باركود لاسلكي Zebra DS2278",
+      "item_code": "AST-POS-014",
+      "serial_number": "SN-ZEB-3391",
+      "barcode": "BC-6221099",
+      "quantity": 1,
+      "unit_cost": 4500,
+      "total_value": 4500,
+      "condition_on_issue": "ممتازة",
+      "condition_on_return": null,
+      "status": "assigned",
+      "issued_at": "2026-08-02T11:00:00.000Z",
+      "notes": "مع قاعدة الشحن",
+      "created_at": "2026-08-02T11:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "custody_id": 4,
+      "item_type": "vehicle",
+      "asset_id": 3,
+      "item_name": "دراجة نارية هوجان 150cc موديل 2024",
+      "item_code": "AST-VEH-003",
+      "serial_number": "CHASSIS-EG-99812",
+      "barcode": "BC-VEH-4821",
+      "quantity": 1,
+      "unit_cost": 55000,
+      "total_value": 55000,
+      "condition_on_issue": "جديدة كلياً 0 كم",
+      "condition_on_return": null,
+      "status": "assigned",
+      "issued_at": "2026-06-01T14:00:00.000Z",
+      "notes": "رقم اللوحة ق هـ د 4821 - رخصة سارية حتى 2027",
+      "created_at": "2026-06-01T14:00:00.000Z"
+    }
+  ],
+  "treasury_custody_settlements": [
+    {
+      "id": 1,
+      "settlement_number": "SET-2026-0001",
+      "custody_id": 5,
+      "settlement_date": "2026-07-14T15:00:00.000Z",
+      "total_expenses": 3100,
+      "returned_to_treasury": 400,
+      "additional_paid_to_employee": 0,
+      "settlement_type": "full",
+      "treasury_account_id": 1,
+      "status": "approved",
+      "notes": "تصفية كاملة مستوفية للفواتير الضريبية وإيصال استرداد النقدية",
+      "reviewed_by": 1,
+      "reviewed_at": "2026-07-14T14:30:00.000Z",
+      "approved_by": 1,
+      "approved_at": "2026-07-14T15:00:00.000Z",
+      "journal_entry_id": 1,
+      "created_by": 1,
+      "created_at": "2026-07-14T14:00:00.000Z"
+    }
+  ],
+  "treasury_custody_audit_logs": [
+    {
+      "id": 1,
+      "custody_id": 1,
+      "action_type": "create",
+      "old_status": null,
+      "new_status": "draft",
+      "details": {
+        "message": "إنشاء طلب عهدة نقدية للمشتريات"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "created_at": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "custody_id": 1,
+      "action_type": "approve",
+      "old_status": "pending_approval",
+      "new_status": "approved",
+      "details": {
+        "message": "اعتماد طلب العهدة من المدير المالي"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "created_at": "2026-08-10T14:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "custody_id": 1,
+      "action_type": "issue",
+      "old_status": "approved",
+      "new_status": "issued",
+      "details": {
+        "message": "صرف وتسليم مبلغ العهدة (5,000 ج.م) من الخزينة الرئيسية بقسيمة PAY-2026-0041"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "created_at": "2026-08-11T10:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "custody_id": 1,
+      "action_type": "receive",
+      "old_status": "issued",
+      "new_status": "active",
+      "details": {
+        "message": "تأكيد واستلام الموظف للعهدة النقدية"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "created_at": "2026-08-11T11:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "custody_id": 5,
+      "action_type": "settle_and_close",
+      "old_status": "active",
+      "new_status": "closed",
+      "details": {
+        "message": "تصفية وإغلاق العهدة ورد 400 ج.م للخزينة"
+      },
+      "user_id": 1,
+      "user_name": "admin",
+      "created_at": "2026-07-14T15:00:00.000Z"
+    }
+  ],
+  "treasury_closings": [
+    {
+      "id": 1,
+      "treasury_id": 1,
+      "closing_date": "2026-08-24T20:30:00.000Z",
+      "opening_balance": 110000,
+      "total_deposits": 35000,
+      "total_withdrawals": 20000,
+      "book_balance": 125000,
+      "actual_balance": 125000,
+      "variance": 0,
+      "responsible_user": "أحمد عبد الله (أمين الخزينة)",
+      "responsible_user_id": 1,
+      "status": "Matched",
+      "notes": "تم إقفال اليومية ومطابقة الجرد الفعلي تماماً مع الرصيد الدفتري بدون أي فروقات.",
+      "denominations": {
+        "1": 0,
+        "5": 10,
+        "10": 15,
+        "20": 40,
+        "50": 80,
+        "100": 200,
+        "200": 500,
+        "0.5": 0
+      },
+      "journal_entry_id": 101,
+      "reviewed_by": 1,
+      "reviewed_at": "2026-08-24T21:00:00.000Z",
+      "review_notes": "تم الاعتماد والمطابقة من المشرف المالي",
+      "created_at": "2026-08-24T20:30:00.000Z",
+      "updated_at": "2026-08-24T21:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "treasury_id": 2,
+      "closing_date": "2026-08-23T21:00:00.000Z",
+      "opening_balance": 18000,
+      "total_deposits": 14250,
+      "total_withdrawals": 13500,
+      "book_balance": 18750,
+      "actual_balance": 18500,
+      "variance": -250,
+      "responsible_user": "حسام حسن (كاشير صالة فرع الجيزة)",
+      "responsible_user_id": 2,
+      "status": "Deficit - Pending Review",
+      "notes": "عجز 250 ج.م في النقدية الفعلية، جارٍ مراجعة فواتير التوصيل واسترجاع الطلبات المعلقة.",
+      "denominations": {
+        "1": 0,
+        "5": 0,
+        "10": 4,
+        "20": 8,
+        "50": 16,
+        "100": 35,
+        "200": 70,
+        "0.5": 0
+      },
+      "journal_entry_id": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "review_notes": null,
+      "created_at": "2026-08-23T21:00:00.000Z",
+      "updated_at": "2026-08-23T21:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "treasury_id": 1,
+      "closing_date": "2026-08-22T20:00:00.000Z",
+      "opening_balance": 95000,
+      "total_deposits": 48000,
+      "total_withdrawals": 33120,
+      "book_balance": 109880,
+      "actual_balance": 110000,
+      "variance": 120,
+      "responsible_user": "أحمد عبد الله (أمين الخزينة)",
+      "responsible_user_id": 1,
+      "status": "Surplus - Pending Review",
+      "notes": "زيادة نقدية بقيمة 120 ج.م نتيجة بواقي تقريب فواتير الكاشير وطلبات الدليفري.",
+      "denominations": {
+        "1": 0,
+        "5": 10,
+        "10": 15,
+        "20": 40,
+        "50": 40,
+        "100": 170,
+        "200": 450,
+        "0.5": 0
+      },
+      "journal_entry_id": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "review_notes": null,
+      "created_at": "2026-08-22T20:00:00.000Z",
+      "updated_at": "2026-08-22T20:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "treasury_id": 2,
+      "closing_date": "2026-08-21T21:30:00.000Z",
+      "opening_balance": 15000,
+      "total_deposits": 22000,
+      "total_withdrawals": 19000,
+      "book_balance": 18000,
+      "actual_balance": 18000,
+      "variance": 0,
+      "responsible_user": "سعيد مرسي (أمين الخزينة)",
+      "responsible_user_id": 2,
+      "status": "Matched",
+      "notes": "مطابقة كاملة لوردية نهاية الأسبوع بدون ملاحظات.",
+      "denominations": {
+        "1": 0,
+        "5": 0,
+        "10": 10,
+        "20": 20,
+        "50": 20,
+        "100": 45,
+        "200": 60,
+        "0.5": 0
+      },
+      "journal_entry_id": 104,
+      "reviewed_by": 1,
+      "reviewed_at": "2026-08-21T22:00:00.000Z",
+      "review_notes": "معتمد ومطابق",
+      "created_at": "2026-08-21T21:30:00.000Z",
+      "updated_at": "2026-08-21T22:00:00.000Z"
+    }
+  ],
+  "production_runs": [],
+  "complaints": [],
+  "employee_advances": [],
+  "customers": [],
+  "sales_quotations": [],
+  "erp_sales_orders": [],
+  "sales_returns": [],
+  "hotel_properties": [
+    {
+      "id": 1,
+      "name": "فندق ومنتجع ريمو ريزورت وتورز (REMO Grand Resort & Spa)",
+      "code": "REMO-HOTEL-01",
+      "address": "طريق الكورنيش الرئيسي - الزمالك، القاهرة",
+      "phone": "+20 2 27361234",
+      "email": "cairo@remopro.com",
+      "manager": "م. أحمد الشريف",
+      "floors_count": 5,
+      "rooms_count": 50,
+      "currency": "EGP",
+      "tax_rate": 14,
+      "checkin_time": "14:00",
+      "checkout_time": "12:00"
+    },
+    {
+      "id": 2,
+      "name": "'فندق ريمو رويال بلازا وشاطئ خليج نعمة (REMO Royal Plaza & Beach",
+      "code": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "manager": "",
+      "floors_count": "",
+      "rooms_count": "",
+      "currency": "",
+      "tax_rate": "",
+      "checkin_time": "",
+      "checkout_time": ""
+    }
+  ],
+  "payroll_records": [],
+  "customer_transactions": [],
+  "sales_quotation_items": [],
+  "erp_sales_order_items": [],
+  "sales_return_items": [],
+  "adjustment_reasons": [],
+  "inventory_adjustments": [],
+  "inventory_adjustment_items": [],
+  "settings": [
+    {
+      "id": 1,
+      "key": "backup_interval",
+      "value": "6"
+    },
+    {
+      "id": 2,
+      "key": "receipt_reverse_arabic",
+      "value": "true"
+    },
+    {
+      "id": 3,
+      "key": "receipt_reverse_arabic_internal",
+      "value": "true"
+    },
+    {
+      "id": 4,
+      "key": "receipt_code_page_internal",
+      "value": "42"
+    },
+    {
+      "id": 5,
+      "key": "receipt_printer_width_internal",
+      "value": "32"
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "name": "الفرع الرئيسي"
+    }
+  ],
+  "delivery_areas": [],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "$2a$10$5shz./fdpq2j9PonlPUZTO.qefY9BIoJKea5UUhgwOLhy2wFQeqyG",
+      "role": "admin",
+      "permissions": "{\"all\":true}",
+      "must_change_password": false
+    },
+    {
+      "id": 2,
+      "username": "elhosary",
+      "password": "$2a$10$5shz./fdpq2j9PonlPUZTO.qefY9BIoJKea5UUhgwOLhy2wFQeqyG",
+      "role": "admin",
+      "permissions": "{\"all\":true}",
+      "must_change_password": false
+    }
+  ],
+  "printers": [],
+  "categories": [],
+  "products": [],
+  "orders": [],
+  "order_items": [],
+  "backup_logs": [],
+  "reservations": [],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "كاسات بلاستيك مطبوع 16 أونص",
+      "unit": "Nos",
+      "cost": 1.5,
+      "supplier": "factory_raw",
+      "min_stock": 50,
+      "current_stock": 1000,
+      "item_code": "ITEM-1001"
+    },
+    {
+      "id": 2,
+      "name": "أكواب عصير مطبوعة تصنيع",
+      "unit": "Nos",
+      "cost": 2.2,
+      "supplier": "food_beverage",
+      "min_stock": 20,
+      "current_stock": 800,
+      "item_code": "ITEM-1002"
+    },
+    {
+      "id": 3,
+      "name": "كوب 8 أونص دبل مع طباعة خط",
+      "unit": "Nos",
+      "cost": 1.9,
+      "supplier": "packaging",
+      "min_stock": 30,
+      "current_stock": 1500,
+      "item_code": "ITEM-1003"
+    },
+    {
+      "id": 4,
+      "name": "غطاء بلاستيك أكواب عصير",
+      "unit": "Nos",
+      "cost": 0.4,
+      "supplier": "packaging",
+      "min_stock": 100,
+      "current_stock": 2000,
+      "item_code": "ITEM-1004"
+    },
+    {
+      "id": 5,
+      "name": "قطع غيار سخانات إيطالي",
+      "unit": "قطعة",
+      "cost": 120,
+      "supplier": "spare_parts",
+      "min_stock": 5,
+      "current_stock": 15,
+      "item_code": "ITEM-1005"
+    },
+    {
+      "id": 6,
+      "name": "علب كرتون شحن بني مموج",
+      "unit": "كرتونة",
+      "cost": 4.5,
+      "supplier": "packaging",
+      "min_stock": 10,
+      "current_stock": 300,
+      "item_code": "ITEM-1006"
+    }
+  ],
+  "alternative_items": [],
+  "product_ingredients": [],
+  "waste_logs": [],
+  "product_sizes": [],
+  "warehouses": [
+    {
+      "id": 1,
+      "name": "المخزن الرئيسي",
+      "is_main": 1,
+      "type": "main"
+    }
+  ],
+  "safes": [
+    {
+      "id": 1,
+      "name": "الخزينة الرئيسية",
+      "balance": 0
+    }
+  ],
+  "safe_transactions": [],
+  "safe_shifts": [],
+  "costs_activity_log": [],
+  "standard_costs": [],
+  "hr_penalties": [],
+  "product_costs": [],
+  "hr_departments": [
+    {
+      "id": 1,
+      "name": "المطبخ"
+    },
+    {
+      "id": 2,
+      "name": "الصالة"
+    },
+    {
+      "id": 3,
+      "name": "الإدارة"
+    },
+    {
+      "id": 4,
+      "name": "الدليفري"
+    },
+    {
+      "id": 5,
+      "name": "الكاشير"
+    },
+    {
+      "id": 6,
+      "name": "البار"
+    }
+  ],
+  "hr_shifts": [
+    {
+      "id": 1,
+      "name": "الوردية الصباحية",
+      "start_time": "08:00",
+      "end_time": "16:30",
+      "total_hours": "8.5",
+      "grace_period": "15"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "سعيد محمد جودة علي فرج",
+      "fingerprint_code": "238",
+      "employee_code": "238",
+      "department_id": 2,
+      "branch_id": 1,
+      "job_title": "مشرف صالة",
+      "salary_type": "monthly",
+      "basic_salary": 6500,
+      "work_days": "30",
+      "has_insurance": "1",
+      "has_meal_allowance": "1",
+      "organization_id": 1,
+      "organization_name": "مؤسسة تراستس جانكو",
+      "organization_code": "ORG-TG",
+      "hospital_name": "مؤسسة تراستس جانكو",
+      "hospital_code": "ORG-TG"
+    },
+    {
+      "id": 2,
+      "name": "أحمد السيد محمود",
+      "fingerprint_code": "101",
+      "employee_code": "101",
+      "department_id": 1,
+      "branch_id": 1,
+      "job_title": "شيف أول",
+      "salary_type": "monthly",
+      "basic_salary": 7500,
+      "work_days": "30",
+      "has_insurance": "1",
+      "has_meal_allowance": "1",
+      "organization_id": 1,
+      "organization_name": "مؤسسة تراستس جانكو",
+      "organization_code": "ORG-TG",
+      "hospital_name": "مؤسسة تراستس جانكو",
+      "hospital_code": "ORG-TG"
+    },
+    {
+      "id": 3,
+      "name": "حسام الدين عثمان",
+      "fingerprint_code": "102",
+      "employee_code": "102",
+      "department_id": 3,
+      "branch_id": 1,
+      "job_title": "مدير إداري",
+      "salary_type": "monthly",
+      "basic_salary": 9000,
+      "work_days": "30",
+      "has_insurance": "1",
+      "has_meal_allowance": "1",
+      "organization_id": 1,
+      "organization_name": "مؤسسة تراستس جانكو",
+      "organization_code": "ORG-TG",
+      "hospital_name": "مؤسسة تراستس جانكو",
+      "hospital_code": "ORG-TG"
+    },
+    {
+      "id": 4,
+      "name": "محمود حسن علي",
+      "fingerprint_code": "103",
+      "employee_code": "103",
+      "department_id": 2,
+      "branch_id": 1,
+      "job_title": "مضيف صالة",
+      "salary_type": "monthly",
+      "basic_salary": 5500,
+      "work_days": "30",
+      "has_insurance": "1",
+      "has_meal_allowance": "1",
+      "organization_id": 1,
+      "organization_name": "مؤسسة تراستس جانكو",
+      "organization_code": "ORG-TG",
+      "hospital_name": "مؤسسة تراستس جانكو",
+      "hospital_code": "ORG-TG"
+    },
+    {
+      "id": 5,
+      "name": "سارة علي المنشاوي",
+      "fingerprint_code": "104",
+      "employee_code": "104",
+      "department_id": 5,
+      "branch_id": 1,
+      "job_title": "مسؤولة كاشير",
+      "salary_type": "monthly",
+      "basic_salary": 6000,
+      "work_days": "30",
+      "has_insurance": "1",
+      "has_meal_allowance": "1",
+      "organization_id": 1,
+      "organization_name": "مؤسسة تراستس جانكو",
+      "organization_code": "ORG-TG",
+      "hospital_name": "مؤسسة تراستس جانكو",
+      "hospital_code": "ORG-TG"
+    },
+    {
+      "id": 6,
+      "name": "إبراهيم حسن الشريف",
+      "fingerprint_code": "105",
+      "employee_code": "105",
+      "department_id": 4,
+      "branch_id": 1,
+      "job_title": "مندوب توصيل",
+      "salary_type": "monthly",
+      "basic_salary": 5000,
+      "work_days": "30",
+      "has_insurance": "1",
+      "has_meal_allowance": "1",
+      "organization_id": 1,
+      "organization_name": "مؤسسة تراستس جانكو",
+      "organization_code": "ORG-TG",
+      "hospital_name": "مؤسسة تراستس جانكو",
+      "hospital_code": "ORG-TG"
+    }
+  ],
+  "employee_shifts": [
+    {
+      "id": 1,
+      "employee_id": 1,
+      "shift_id": 1
+    },
+    {
+      "id": 2,
+      "employee_id": 2,
+      "shift_id": 1
+    },
+    {
+      "id": 3,
+      "employee_id": 3,
+      "shift_id": 1
+    },
+    {
+      "id": 4,
+      "employee_id": 4,
+      "shift_id": 1
+    },
+    {
+      "id": 5,
+      "employee_id": 5,
+      "shift_id": 1
+    },
+    {
+      "id": 6,
+      "employee_id": 6,
+      "shift_id": 1
+    },
+    {
+      "id": 7,
+      "employee_id": 1,
+      "shift_id": 1
+    },
+    {
+      "id": 8,
+      "employee_id": 2,
+      "shift_id": 1
+    },
+    {
+      "id": 9,
+      "employee_id": 3,
+      "shift_id": 1
+    },
+    {
+      "id": 10,
+      "employee_id": 4,
+      "shift_id": 1
+    },
+    {
+      "id": 11,
+      "employee_id": 5,
+      "shift_id": 1
+    },
+    {
+      "id": 12,
+      "employee_id": 6,
+      "shift_id": 1
+    },
+    {
+      "id": 13,
+      "employee_id": 1,
+      "shift_id": 1
+    },
+    {
+      "id": 14,
+      "employee_id": 2,
+      "shift_id": 1
+    },
+    {
+      "id": 15,
+      "employee_id": 3,
+      "shift_id": 1
+    },
+    {
+      "id": 16,
+      "employee_id": 4,
+      "shift_id": 1
+    },
+    {
+      "id": 17,
+      "employee_id": 5,
+      "shift_id": 1
+    },
+    {
+      "id": 18,
+      "employee_id": 6,
+      "shift_id": 1
+    },
+    {
+      "id": 19,
+      "employee_id": 1,
+      "shift_id": 1
+    },
+    {
+      "id": 20,
+      "employee_id": 2,
+      "shift_id": 1
+    },
+    {
+      "id": 21,
+      "employee_id": 3,
+      "shift_id": 1
+    },
+    {
+      "id": 22,
+      "employee_id": 4,
+      "shift_id": 1
+    },
+    {
+      "id": 23,
+      "employee_id": 5,
+      "shift_id": 1
+    },
+    {
+      "id": 24,
+      "employee_id": 6,
+      "shift_id": 1
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "employee_id": 1,
+      "date": "2026-09-01",
+      "punch_time": "2026-09-01 08:15:00",
+      "check_in": "2026-09-01 08:15:00",
+      "check_out": "2026-09-01 16:32:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 2,
+      "employee_id": 2,
+      "date": "2026-09-01",
+      "punch_time": "2026-09-01 07:15:00",
+      "check_in": "2026-09-01 07:15:00",
+      "check_out": "2026-09-01 15:34:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 3,
+      "employee_id": 5,
+      "date": "2026-09-01",
+      "punch_time": "2026-09-01 09:07:00",
+      "check_in": "2026-09-01 09:07:00",
+      "check_out": "2026-09-01 17:21:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 4,
+      "employee_id": 1,
+      "date": "2026-09-02",
+      "punch_time": "2026-09-02 08:18:00",
+      "check_in": "2026-09-02 08:18:00",
+      "check_out": "2026-09-02 16:39:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 5,
+      "employee_id": 2,
+      "date": "2026-09-02",
+      "punch_time": "2026-09-02 07:20:00",
+      "check_in": "2026-09-02 07:20:00",
+      "check_out": "2026-09-02 15:38:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 6,
+      "employee_id": 5,
+      "date": "2026-09-02",
+      "punch_time": "2026-09-02 09:09:00",
+      "check_in": "2026-09-02 09:09:00",
+      "check_out": "2026-09-02 17:27:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 7,
+      "employee_id": 1,
+      "date": "2026-09-03",
+      "punch_time": "2026-09-03 08:21:00",
+      "check_in": "2026-09-03 08:21:00",
+      "check_out": "2026-09-03 16:46:00",
+      "action_type": "check_in",
+      "notes": "بصمة سيلفي وموقع",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": "السويس - الفرع الرئيسي",
+      "check_in_lat": 29.9668,
+      "check_in_lng": 32.5498
+    },
+    {
+      "id": 8,
+      "employee_id": 2,
+      "date": "2026-09-03",
+      "punch_time": "2026-09-03 07:25:00",
+      "check_in": "2026-09-03 07:25:00",
+      "check_out": "2026-09-03 15:42:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 9,
+      "employee_id": 5,
+      "date": "2026-09-03",
+      "punch_time": "2026-09-03 09:11:00",
+      "check_in": "2026-09-03 09:11:00",
+      "check_out": "2026-09-03 17:33:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 10,
+      "employee_id": 1,
+      "date": "2026-09-04",
+      "punch_time": "2026-09-04 08:24:00",
+      "check_in": "2026-09-04 08:24:00",
+      "check_out": "2026-09-04 16:53:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 11,
+      "employee_id": 2,
+      "date": "2026-09-04",
+      "punch_time": "2026-09-04 07:30:00",
+      "check_in": "2026-09-04 07:30:00",
+      "check_out": "2026-09-04 15:46:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 12,
+      "employee_id": 5,
+      "date": "2026-09-04",
+      "punch_time": "2026-09-04 09:13:00",
+      "check_in": "2026-09-04 09:13:00",
+      "check_out": "2026-09-04 17:39:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 13,
+      "employee_id": 1,
+      "date": "2026-09-05",
+      "punch_time": "2026-09-05 08:27:00",
+      "check_in": "2026-09-05 08:27:00",
+      "check_out": "2026-09-05 16:00:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 14,
+      "employee_id": 2,
+      "date": "2026-09-05",
+      "punch_time": "2026-09-05 07:35:00",
+      "check_in": "2026-09-05 07:35:00",
+      "check_out": "2026-09-05 15:50:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 15,
+      "employee_id": 1,
+      "date": "2026-09-06",
+      "punch_time": "2026-09-06 08:30:00",
+      "check_in": "2026-09-06 08:30:00",
+      "check_out": "2026-09-06 16:07:00",
+      "action_type": "check_in",
+      "notes": "بصمة سيلفي وموقع",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": "السويس - الفرع الرئيسي",
+      "check_in_lat": 29.9668,
+      "check_in_lng": 32.5498
+    },
+    {
+      "id": 16,
+      "employee_id": 2,
+      "date": "2026-09-06",
+      "punch_time": "2026-09-06 07:40:00",
+      "check_in": "2026-09-06 07:40:00",
+      "check_out": "2026-09-06 15:54:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 17,
+      "employee_id": 5,
+      "date": "2026-09-06",
+      "punch_time": "2026-09-06 09:17:00",
+      "check_in": "2026-09-06 09:17:00",
+      "check_out": "2026-09-06 17:51:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 18,
+      "employee_id": 1,
+      "date": "2026-09-07",
+      "punch_time": "2026-09-07 08:33:00",
+      "check_in": "2026-09-07 08:33:00",
+      "check_out": "2026-09-07 16:14:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 19,
+      "employee_id": 2,
+      "date": "2026-09-07",
+      "punch_time": "2026-09-07 07:45:00",
+      "check_in": "2026-09-07 07:45:00",
+      "check_out": "2026-09-07 15:58:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 20,
+      "employee_id": 5,
+      "date": "2026-09-07",
+      "punch_time": "2026-09-07 09:19:00",
+      "check_in": "2026-09-07 09:19:00",
+      "check_out": "2026-09-07 17:57:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 21,
+      "employee_id": 1,
+      "date": "2026-09-08",
+      "punch_time": "2026-09-08 08:36:00",
+      "check_in": "2026-09-08 08:36:00",
+      "check_out": "2026-09-08 16:21:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 22,
+      "employee_id": 2,
+      "date": "2026-09-08",
+      "punch_time": "2026-09-08 07:50:00",
+      "check_in": "2026-09-08 07:50:00",
+      "check_out": "2026-09-08 15:02:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 23,
+      "employee_id": 5,
+      "date": "2026-09-08",
+      "punch_time": "2026-09-08 09:21:00",
+      "check_in": "2026-09-08 09:21:00",
+      "check_out": "2026-09-08 17:03:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 24,
+      "employee_id": 1,
+      "date": "2026-09-09",
+      "punch_time": "2026-09-09 08:39:00",
+      "check_in": "2026-09-09 08:39:00",
+      "check_out": "2026-09-09 16:28:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 25,
+      "employee_id": 2,
+      "date": "2026-09-09",
+      "punch_time": "2026-09-09 07:55:00",
+      "check_in": "2026-09-09 07:55:00",
+      "check_out": "2026-09-09 15:06:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 26,
+      "employee_id": 5,
+      "date": "2026-09-09",
+      "punch_time": "2026-09-09 09:23:00",
+      "check_in": "2026-09-09 09:23:00",
+      "check_out": "2026-09-09 17:09:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 27,
+      "employee_id": 1,
+      "date": "2026-09-10",
+      "punch_time": "2026-09-10 08:42:00",
+      "check_in": "2026-09-10 08:42:00",
+      "check_out": "2026-09-10 16:35:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 28,
+      "employee_id": 2,
+      "date": "2026-09-10",
+      "punch_time": "2026-09-10 07:00:00",
+      "check_in": "2026-09-10 07:00:00",
+      "check_out": "2026-09-10 15:10:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 29,
+      "employee_id": 5,
+      "date": "2026-09-10",
+      "punch_time": "2026-09-10 09:25:00",
+      "check_in": "2026-09-10 09:25:00",
+      "check_out": "2026-09-10 17:15:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 30,
+      "employee_id": 1,
+      "date": "2026-09-11",
+      "punch_time": "2026-09-11 08:45:00",
+      "check_in": "2026-09-11 08:45:00",
+      "check_out": "2026-09-11 16:42:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 31,
+      "employee_id": 2,
+      "date": "2026-09-11",
+      "punch_time": "2026-09-11 07:05:00",
+      "check_in": "2026-09-11 07:05:00",
+      "check_out": "2026-09-11 15:14:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 32,
+      "employee_id": 5,
+      "date": "2026-09-11",
+      "punch_time": "2026-09-11 09:27:00",
+      "check_in": "2026-09-11 09:27:00",
+      "check_out": "2026-09-11 17:21:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 33,
+      "employee_id": 1,
+      "date": "2026-09-12",
+      "punch_time": "2026-09-12 08:48:00",
+      "check_in": "2026-09-12 08:48:00",
+      "check_out": "2026-09-12 16:49:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 34,
+      "employee_id": 2,
+      "date": "2026-09-12",
+      "punch_time": "2026-09-12 07:10:00",
+      "check_in": "2026-09-12 07:10:00",
+      "check_out": "2026-09-12 15:18:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 35,
+      "employee_id": 1,
+      "date": "2026-09-13",
+      "punch_time": "2026-09-13 08:51:00",
+      "check_in": "2026-09-13 08:51:00",
+      "check_out": "2026-09-13 16:56:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 36,
+      "employee_id": 2,
+      "date": "2026-09-13",
+      "punch_time": "2026-09-13 07:15:00",
+      "check_in": "2026-09-13 07:15:00",
+      "check_out": "2026-09-13 15:22:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 37,
+      "employee_id": 5,
+      "date": "2026-09-13",
+      "punch_time": "2026-09-13 09:31:00",
+      "check_in": "2026-09-13 09:31:00",
+      "check_out": "2026-09-13 17:33:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 38,
+      "employee_id": 1,
+      "date": "2026-09-14",
+      "punch_time": "2026-09-14 08:54:00",
+      "check_in": "2026-09-14 08:54:00",
+      "check_out": "2026-09-14 16:03:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 39,
+      "employee_id": 2,
+      "date": "2026-09-14",
+      "punch_time": "2026-09-14 07:20:00",
+      "check_in": "2026-09-14 07:20:00",
+      "check_out": "2026-09-14 15:26:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 40,
+      "employee_id": 5,
+      "date": "2026-09-14",
+      "punch_time": "2026-09-14 09:33:00",
+      "check_in": "2026-09-14 09:33:00",
+      "check_out": "2026-09-14 17:39:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 41,
+      "employee_id": 1,
+      "date": "2026-09-15",
+      "punch_time": "2026-09-15 08:57:00",
+      "check_in": "2026-09-15 08:57:00",
+      "check_out": "2026-09-15 16:10:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 42,
+      "employee_id": 2,
+      "date": "2026-09-15",
+      "punch_time": "2026-09-15 07:25:00",
+      "check_in": "2026-09-15 07:25:00",
+      "check_out": "2026-09-15 15:30:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 43,
+      "employee_id": 5,
+      "date": "2026-09-15",
+      "punch_time": "2026-09-15 09:35:00",
+      "check_in": "2026-09-15 09:35:00",
+      "check_out": "2026-09-15 17:45:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 44,
+      "employee_id": 1,
+      "date": "2026-09-16",
+      "punch_time": "2026-09-16 08:00:00",
+      "check_in": "2026-09-16 08:00:00",
+      "check_out": "2026-09-16 16:17:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 45,
+      "employee_id": 2,
+      "date": "2026-09-16",
+      "punch_time": "2026-09-16 07:30:00",
+      "check_in": "2026-09-16 07:30:00",
+      "check_out": "2026-09-16 15:34:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 46,
+      "employee_id": 5,
+      "date": "2026-09-16",
+      "punch_time": "2026-09-16 09:37:00",
+      "check_in": "2026-09-16 09:37:00",
+      "check_out": "2026-09-16 17:51:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 47,
+      "employee_id": 1,
+      "date": "2026-09-17",
+      "punch_time": "2026-09-17 08:03:00",
+      "check_in": "2026-09-17 08:03:00",
+      "check_out": "2026-09-17 16:24:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 48,
+      "employee_id": 2,
+      "date": "2026-09-17",
+      "punch_time": "2026-09-17 07:35:00",
+      "check_in": "2026-09-17 07:35:00",
+      "check_out": "2026-09-17 15:38:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 49,
+      "employee_id": 5,
+      "date": "2026-09-17",
+      "punch_time": "2026-09-17 09:39:00",
+      "check_in": "2026-09-17 09:39:00",
+      "check_out": "2026-09-17 17:57:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 50,
+      "employee_id": 1,
+      "date": "2026-09-18",
+      "punch_time": "2026-09-18 08:06:00",
+      "check_in": "2026-09-18 08:06:00",
+      "check_out": "2026-09-18 16:31:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 51,
+      "employee_id": 2,
+      "date": "2026-09-18",
+      "punch_time": "2026-09-18 07:40:00",
+      "check_in": "2026-09-18 07:40:00",
+      "check_out": "2026-09-18 15:42:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 52,
+      "employee_id": 5,
+      "date": "2026-09-18",
+      "punch_time": "2026-09-18 09:41:00",
+      "check_in": "2026-09-18 09:41:00",
+      "check_out": "2026-09-18 17:03:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 53,
+      "employee_id": 1,
+      "date": "2026-09-19",
+      "punch_time": "2026-09-19 08:09:00",
+      "check_in": "2026-09-19 08:09:00",
+      "check_out": "2026-09-19 16:38:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 54,
+      "employee_id": 2,
+      "date": "2026-09-19",
+      "punch_time": "2026-09-19 07:45:00",
+      "check_in": "2026-09-19 07:45:00",
+      "check_out": "2026-09-19 15:46:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 55,
+      "employee_id": 1,
+      "date": "2026-09-20",
+      "punch_time": "2026-09-20 08:12:00",
+      "check_in": "2026-09-20 08:12:00",
+      "check_out": "2026-09-20 16:45:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 56,
+      "employee_id": 2,
+      "date": "2026-09-20",
+      "punch_time": "2026-09-20 07:50:00",
+      "check_in": "2026-09-20 07:50:00",
+      "check_out": "2026-09-20 15:50:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 57,
+      "employee_id": 5,
+      "date": "2026-09-20",
+      "punch_time": "2026-09-20 09:45:00",
+      "check_in": "2026-09-20 09:45:00",
+      "check_out": "2026-09-20 17:15:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 58,
+      "employee_id": 1,
+      "date": "2026-09-21",
+      "punch_time": "2026-09-21 08:15:00",
+      "check_in": "2026-09-21 08:15:00",
+      "check_out": "2026-09-21 16:52:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 59,
+      "employee_id": 2,
+      "date": "2026-09-21",
+      "punch_time": "2026-09-21 07:55:00",
+      "check_in": "2026-09-21 07:55:00",
+      "check_out": "2026-09-21 15:54:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 60,
+      "employee_id": 5,
+      "date": "2026-09-21",
+      "punch_time": "2026-09-21 09:47:00",
+      "check_in": "2026-09-21 09:47:00",
+      "check_out": "2026-09-21 17:21:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 61,
+      "employee_id": 1,
+      "date": "2026-09-22",
+      "punch_time": "2026-09-22 08:18:00",
+      "check_in": "2026-09-22 08:18:00",
+      "check_out": "2026-09-22 16:59:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 62,
+      "employee_id": 2,
+      "date": "2026-09-22",
+      "punch_time": "2026-09-22 07:00:00",
+      "check_in": "2026-09-22 07:00:00",
+      "check_out": "2026-09-22 15:58:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    },
+    {
+      "id": 63,
+      "employee_id": 5,
+      "date": "2026-09-22",
+      "punch_time": "2026-09-22 09:49:00",
+      "check_in": "2026-09-22 09:49:00",
+      "check_out": "2026-09-22 17:27:00",
+      "action_type": "check_in",
+      "notes": "بصمة جهاز",
+      "status": "present",
+      "work_hours": "8.0",
+      "check_in_location": null,
+      "check_in_lat": null,
+      "check_in_lng": null
+    }
+  ],
+  "hr_official_holidays": [],
+  "payroll": [],
+  "hr_job_postings": [],
+  "hr_job_applications": [],
+  "hr_interviews": [],
+  "putaway_rules": [],
+  "stock_entries": [],
+  "stock_entry_items": [],
+  "product_bundles": [],
+  "product_bundle_items": [],
+  "inventory_items": [
+    {
+      "id": 1,
+      "warehouse_id": 1,
+      "ingredient_id": 1,
+      "quantity": "500.00",
+      "min_quantity": "10.00"
+    },
+    {
+      "id": 2,
+      "warehouse_id": 1,
+      "ingredient_id": 2,
+      "quantity": "500.00",
+      "min_quantity": "10.00"
+    },
+    {
+      "id": 3,
+      "warehouse_id": 1,
+      "ingredient_id": 3,
+      "quantity": "500.00",
+      "min_quantity": "10.00"
+    },
+    {
+      "id": 4,
+      "warehouse_id": 1,
+      "ingredient_id": 4,
+      "quantity": "500.00",
+      "min_quantity": "10.00"
+    },
+    {
+      "id": 5,
+      "warehouse_id": 1,
+      "ingredient_id": 5,
+      "quantity": "500.00",
+      "min_quantity": "10.00"
+    },
+    {
+      "id": 6,
+      "warehouse_id": 1,
+      "ingredient_id": 6,
+      "quantity": "500.00",
+      "min_quantity": "10.00"
+    }
+  ],
+  "uom_conversions": [],
+  "inventory_requests": [],
+  "inventory_request_items": [],
+  "inventory_transactions": [],
+  "inventory_counts": [],
+  "inventory_count_items": [],
+  "purchase_orders": [],
+  "purchase_order_items": [],
+  "purchase_requests": [],
+  "purchase_request_items": [],
+  "supplier_transactions": [],
+  "purchases": [],
+  "purchase_items": [],
+  "purchase_returns": [],
+  "purchase_return_items": [],
+  "accounts": [
+    {
+      "id": 1,
+      "code": "1",
+      "name": "الأصول",
+      "name_ar": "name",
+      "name_en": "Assets",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 1,
+      "is_leaf": false,
+      "allow_posting": false,
+      "status": true,
+      "parent_id": null
+    },
+    {
+      "id": 2,
+      "code": "2",
+      "name": "الخصوم",
+      "name_ar": "name",
+      "name_en": "Liabilities",
+      "type": "liability",
+      "account_type": "LIABILITY",
+      "account_nature": "CREDIT",
+      "level": 1,
+      "is_leaf": false,
+      "allow_posting": false,
+      "status": true,
+      "parent_id": null
+    },
+    {
+      "id": 3,
+      "code": "3",
+      "name": "حقوق الملكية",
+      "name_ar": "name",
+      "name_en": "Equity",
+      "type": "equity",
+      "account_type": "EQUITY",
+      "account_nature": "CREDIT",
+      "level": 1,
+      "is_leaf": false,
+      "allow_posting": false,
+      "status": true,
+      "parent_id": null
+    },
+    {
+      "id": 4,
+      "code": "4",
+      "name": "الإيرادات",
+      "name_ar": "name",
+      "name_en": "Revenue",
+      "type": "revenue",
+      "account_type": "REVENUE",
+      "account_nature": "CREDIT",
+      "level": 1,
+      "is_leaf": false,
+      "allow_posting": false,
+      "status": true,
+      "parent_id": null
+    },
+    {
+      "id": 5,
+      "code": "5",
+      "name": "المصروفات",
+      "name_ar": "name",
+      "name_en": "Expense",
+      "type": "expense",
+      "account_type": "EXPENSE",
+      "account_nature": "CREDIT",
+      "level": 1,
+      "is_leaf": false,
+      "allow_posting": false,
+      "status": true,
+      "parent_id": null
+    },
+    {
+      "id": 6,
+      "code": "11",
+      "name": "الأصول المتداولة",
+      "name_ar": "name",
+      "name_en": "Current Assets",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 2,
+      "is_leaf": false,
+      "allow_posting": false,
+      "status": true,
+      "parent_id": 1
+    },
+    {
+      "id": 7,
+      "code": "12",
+      "name": "الأصول الثابتة",
+      "name_ar": "name",
+      "name_en": "Fixed Assets",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 2,
+      "is_leaf": false,
+      "allow_posting": false,
+      "status": true,
+      "parent_id": 1
+    },
+    {
+      "id": 8,
+      "code": "21",
+      "name": "الخصوم المتداولة",
+      "name_ar": "name",
+      "name_en": "Liabilities",
+      "type": "liability",
+      "account_type": "LIABILITY",
+      "account_nature": "CREDIT",
+      "level": 2,
+      "is_leaf": false,
+      "allow_posting": false,
+      "status": true,
+      "parent_id": 2
+    },
+    {
+      "id": 9,
+      "code": "111",
+      "name": "الصندوق",
+      "name_ar": "name",
+      "name_en": "Cash",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 6
+    },
+    {
+      "id": 10,
+      "code": "112",
+      "name": "البنك",
+      "name_ar": "name",
+      "name_en": "Bank",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 6
+    },
+    {
+      "id": 11,
+      "code": "113",
+      "name": "العملاء",
+      "name_ar": "name",
+      "name_en": "Accounts Receivable",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 6
+    },
+    {
+      "id": 12,
+      "code": "114",
+      "name": "المخزون",
+      "name_ar": "name",
+      "name_en": "Inventory",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 6
+    },
+    {
+      "id": 13,
+      "code": "121",
+      "name": "الأراضي",
+      "name_ar": "name",
+      "name_en": "Land",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 7
+    },
+    {
+      "id": 14,
+      "code": "122",
+      "name": "المباني",
+      "name_ar": "name",
+      "name_en": "Buildings",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 7
+    },
+    {
+      "id": 15,
+      "code": "123",
+      "name": "السيارات",
+      "name_ar": "name",
+      "name_en": "Vehicles",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 7
+    },
+    {
+      "id": 16,
+      "code": "124",
+      "name": "الأجهزة",
+      "name_ar": "name",
+      "name_en": "Equipment",
+      "type": "asset",
+      "account_type": "ASSET",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 7
+    },
+    {
+      "id": 17,
+      "code": "211",
+      "name": "الموردون",
+      "name_ar": "name",
+      "name_en": "Suppliers",
+      "type": "liability",
+      "account_type": "LIABILITY",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 8
+    },
+    {
+      "id": 18,
+      "code": "212",
+      "name": "القروض",
+      "name_ar": "name",
+      "name_en": "Loans",
+      "type": "liability",
+      "account_type": "LIABILITY",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 8
+    },
+    {
+      "id": 19,
+      "code": "213",
+      "name": "الضرائب المستحقة",
+      "name_ar": "name",
+      "name_en": "Taxes Payable",
+      "type": "liability",
+      "account_type": "LIABILITY",
+      "account_nature": "CREDIT",
+      "level": 3,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 8
+    },
+    {
+      "id": 20,
+      "code": "31",
+      "name": "رأس المال",
+      "name_ar": "name",
+      "name_en": "Capital",
+      "type": "equity",
+      "account_type": "EQUITY",
+      "account_nature": "CREDIT",
+      "level": 2,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 3
+    },
+    {
+      "id": 21,
+      "code": "41",
+      "name": "مبيعات النشاط",
+      "name_ar": "name",
+      "name_en": "Sales",
+      "type": "revenue",
+      "account_type": "REVENUE",
+      "account_nature": "CREDIT",
+      "level": 2,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 4
+    },
+    {
+      "id": 22,
+      "code": "51",
+      "name": "تكلفة البضاعة المباعة",
+      "name_ar": "name",
+      "name_en": "Cost of Goods Sold",
+      "type": "expense",
+      "account_type": "EXPENSE",
+      "account_nature": "CREDIT",
+      "level": 2,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 5
+    },
+    {
+      "id": 23,
+      "code": "52",
+      "name": "الرواتب والأجور",
+      "name_ar": "name",
+      "name_en": "Salaries and Wages",
+      "type": "expense",
+      "account_type": "EXPENSE",
+      "account_nature": "CREDIT",
+      "level": 2,
+      "is_leaf": true,
+      "allow_posting": true,
+      "status": true,
+      "parent_id": 5
+    }
+  ],
+  "journal_entries": [],
+  "treasury_accounts": [],
+  "treasury_transactions": [],
+  "bank_transactions": [],
+  "vouchers": [],
+  "voucher_items": [],
+  "journal_items": [],
+  "bank_accounts": [],
+  "real_estate_properties": [],
+  "real_estate_settings": [],
+  "bank_module_settings": [],
+  "daily_closings": [],
+  "order_modifications": [],
+  "payroll_advances": [],
+  "payroll_bonuses": [],
+  "payroll_deductions": [],
+  "employee_penalties": [],
+  "user_logs": [],
+  "financial_periods": [
+    {
+      "id": 1,
+      "fiscal_year_id": 1,
+      "month": 1,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-01-01",
+      "end_date": "2026-01-31"
+    },
+    {
+      "id": 2,
+      "fiscal_year_id": 1,
+      "month": 2,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-02-01",
+      "end_date": "2026-02-28"
+    },
+    {
+      "id": 3,
+      "fiscal_year_id": 1,
+      "month": 3,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-03-01",
+      "end_date": "2026-03-31"
+    },
+    {
+      "id": 4,
+      "fiscal_year_id": 1,
+      "month": 4,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-30"
+    },
+    {
+      "id": 5,
+      "fiscal_year_id": 1,
+      "month": 5,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-31"
+    },
+    {
+      "id": 6,
+      "fiscal_year_id": 1,
+      "month": 6,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-30"
+    },
+    {
+      "id": 7,
+      "fiscal_year_id": 1,
+      "month": 7,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-31"
+    },
+    {
+      "id": 8,
+      "fiscal_year_id": 1,
+      "month": 8,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31"
+    },
+    {
+      "id": 9,
+      "fiscal_year_id": 1,
+      "month": 9,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-30"
+    },
+    {
+      "id": 10,
+      "fiscal_year_id": 1,
+      "month": 10,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31"
+    },
+    {
+      "id": 11,
+      "fiscal_year_id": 1,
+      "month": 11,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-30"
+    },
+    {
+      "id": 12,
+      "fiscal_year_id": 1,
+      "month": 12,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-31"
+    },
+    {
+      "id": 13,
+      "fiscal_year_id": 2,
+      "month": 1,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-01-01",
+      "end_date": "2025-01-31"
+    },
+    {
+      "id": 14,
+      "fiscal_year_id": 2,
+      "month": 2,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-28"
+    },
+    {
+      "id": 15,
+      "fiscal_year_id": 2,
+      "month": 3,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31"
+    },
+    {
+      "id": 16,
+      "fiscal_year_id": 2,
+      "month": 4,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-04-01",
+      "end_date": "2025-04-30"
+    },
+    {
+      "id": 17,
+      "fiscal_year_id": 2,
+      "month": 5,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-31"
+    },
+    {
+      "id": 18,
+      "fiscal_year_id": 2,
+      "month": 6,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-30"
+    },
+    {
+      "id": 19,
+      "fiscal_year_id": 2,
+      "month": 7,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-31"
+    },
+    {
+      "id": 20,
+      "fiscal_year_id": 2,
+      "month": 8,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-31"
+    },
+    {
+      "id": 21,
+      "fiscal_year_id": 2,
+      "month": 9,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-30"
+    },
+    {
+      "id": 22,
+      "fiscal_year_id": 2,
+      "month": 10,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-10-01",
+      "end_date": "2025-10-31"
+    },
+    {
+      "id": 23,
+      "fiscal_year_id": 2,
+      "month": 11,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-11-01",
+      "end_date": "2025-11-30"
+    },
+    {
+      "id": 24,
+      "fiscal_year_id": 2,
+      "month": 12,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-12-01",
+      "end_date": "2025-12-31"
+    },
+    {
+      "id": 25,
+      "fiscal_year_id": 1,
+      "month": 1,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-01-01",
+      "end_date": "2026-01-31"
+    },
+    {
+      "id": 26,
+      "fiscal_year_id": 1,
+      "month": 2,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-02-01",
+      "end_date": "2026-02-28"
+    },
+    {
+      "id": 27,
+      "fiscal_year_id": 1,
+      "month": 3,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-03-01",
+      "end_date": "2026-03-31"
+    },
+    {
+      "id": 28,
+      "fiscal_year_id": 1,
+      "month": 4,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-30"
+    },
+    {
+      "id": 29,
+      "fiscal_year_id": 1,
+      "month": 5,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-31"
+    },
+    {
+      "id": 30,
+      "fiscal_year_id": 1,
+      "month": 6,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-30"
+    },
+    {
+      "id": 31,
+      "fiscal_year_id": 1,
+      "month": 7,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-31"
+    },
+    {
+      "id": 32,
+      "fiscal_year_id": 1,
+      "month": 8,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31"
+    },
+    {
+      "id": 33,
+      "fiscal_year_id": 1,
+      "month": 9,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-30"
+    },
+    {
+      "id": 34,
+      "fiscal_year_id": 1,
+      "month": 10,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31"
+    },
+    {
+      "id": 35,
+      "fiscal_year_id": 1,
+      "month": 11,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-30"
+    },
+    {
+      "id": 36,
+      "fiscal_year_id": 1,
+      "month": 12,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-31"
+    },
+    {
+      "id": 37,
+      "fiscal_year_id": 2,
+      "month": 1,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-01-01",
+      "end_date": "2025-01-31"
+    },
+    {
+      "id": 38,
+      "fiscal_year_id": 2,
+      "month": 2,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-28"
+    },
+    {
+      "id": 39,
+      "fiscal_year_id": 2,
+      "month": 3,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31"
+    },
+    {
+      "id": 40,
+      "fiscal_year_id": 2,
+      "month": 4,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-04-01",
+      "end_date": "2025-04-30"
+    },
+    {
+      "id": 41,
+      "fiscal_year_id": 2,
+      "month": 5,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-31"
+    },
+    {
+      "id": 42,
+      "fiscal_year_id": 2,
+      "month": 6,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-30"
+    },
+    {
+      "id": 43,
+      "fiscal_year_id": 2,
+      "month": 7,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-31"
+    },
+    {
+      "id": 44,
+      "fiscal_year_id": 2,
+      "month": 8,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-31"
+    },
+    {
+      "id": 45,
+      "fiscal_year_id": 2,
+      "month": 9,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-30"
+    },
+    {
+      "id": 46,
+      "fiscal_year_id": 2,
+      "month": 10,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-10-01",
+      "end_date": "2025-10-31"
+    },
+    {
+      "id": 47,
+      "fiscal_year_id": 2,
+      "month": 11,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-11-01",
+      "end_date": "2025-11-30"
+    },
+    {
+      "id": 48,
+      "fiscal_year_id": 2,
+      "month": 12,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-12-01",
+      "end_date": "2025-12-31"
+    },
+    {
+      "id": 49,
+      "fiscal_year_id": 1,
+      "month": 1,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-01-01",
+      "end_date": "2026-01-31"
+    },
+    {
+      "id": 50,
+      "fiscal_year_id": 1,
+      "month": 2,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-02-01",
+      "end_date": "2026-02-28"
+    },
+    {
+      "id": 51,
+      "fiscal_year_id": 1,
+      "month": 3,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-03-01",
+      "end_date": "2026-03-31"
+    },
+    {
+      "id": 52,
+      "fiscal_year_id": 1,
+      "month": 4,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-30"
+    },
+    {
+      "id": 53,
+      "fiscal_year_id": 1,
+      "month": 5,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-31"
+    },
+    {
+      "id": 54,
+      "fiscal_year_id": 1,
+      "month": 6,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-30"
+    },
+    {
+      "id": 55,
+      "fiscal_year_id": 1,
+      "month": 7,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-31"
+    },
+    {
+      "id": 56,
+      "fiscal_year_id": 1,
+      "month": 8,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31"
+    },
+    {
+      "id": 57,
+      "fiscal_year_id": 1,
+      "month": 9,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-30"
+    },
+    {
+      "id": 58,
+      "fiscal_year_id": 1,
+      "month": 10,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31"
+    },
+    {
+      "id": 59,
+      "fiscal_year_id": 1,
+      "month": 11,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-30"
+    },
+    {
+      "id": 60,
+      "fiscal_year_id": 1,
+      "month": 12,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-31"
+    },
+    {
+      "id": 61,
+      "fiscal_year_id": 2,
+      "month": 1,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-01-01",
+      "end_date": "2025-01-31"
+    },
+    {
+      "id": 62,
+      "fiscal_year_id": 2,
+      "month": 2,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-28"
+    },
+    {
+      "id": 63,
+      "fiscal_year_id": 2,
+      "month": 3,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31"
+    },
+    {
+      "id": 64,
+      "fiscal_year_id": 2,
+      "month": 4,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-04-01",
+      "end_date": "2025-04-30"
+    },
+    {
+      "id": 65,
+      "fiscal_year_id": 2,
+      "month": 5,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-31"
+    },
+    {
+      "id": 66,
+      "fiscal_year_id": 2,
+      "month": 6,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-30"
+    },
+    {
+      "id": 67,
+      "fiscal_year_id": 2,
+      "month": 7,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-31"
+    },
+    {
+      "id": 68,
+      "fiscal_year_id": 2,
+      "month": 8,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-31"
+    },
+    {
+      "id": 69,
+      "fiscal_year_id": 2,
+      "month": 9,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-30"
+    },
+    {
+      "id": 70,
+      "fiscal_year_id": 2,
+      "month": 10,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-10-01",
+      "end_date": "2025-10-31"
+    },
+    {
+      "id": 71,
+      "fiscal_year_id": 2,
+      "month": 11,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-11-01",
+      "end_date": "2025-11-30"
+    },
+    {
+      "id": 72,
+      "fiscal_year_id": 2,
+      "month": 12,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-12-01",
+      "end_date": "2025-12-31"
+    },
+    {
+      "id": 73,
+      "fiscal_year_id": 1,
+      "month": 1,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-01-01",
+      "end_date": "2026-01-31"
+    },
+    {
+      "id": 74,
+      "fiscal_year_id": 1,
+      "month": 2,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-02-01",
+      "end_date": "2026-02-28"
+    },
+    {
+      "id": 75,
+      "fiscal_year_id": 1,
+      "month": 3,
+      "year": 2026,
+      "status": "closed",
+      "start_date": "2026-03-01",
+      "end_date": "2026-03-31"
+    },
+    {
+      "id": 76,
+      "fiscal_year_id": 1,
+      "month": 4,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-30"
+    },
+    {
+      "id": 77,
+      "fiscal_year_id": 1,
+      "month": 5,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-31"
+    },
+    {
+      "id": 78,
+      "fiscal_year_id": 1,
+      "month": 6,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-30"
+    },
+    {
+      "id": 79,
+      "fiscal_year_id": 1,
+      "month": 7,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-31"
+    },
+    {
+      "id": 80,
+      "fiscal_year_id": 1,
+      "month": 8,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31"
+    },
+    {
+      "id": 81,
+      "fiscal_year_id": 1,
+      "month": 9,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-30"
+    },
+    {
+      "id": 82,
+      "fiscal_year_id": 1,
+      "month": 10,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31"
+    },
+    {
+      "id": 83,
+      "fiscal_year_id": 1,
+      "month": 11,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-30"
+    },
+    {
+      "id": 84,
+      "fiscal_year_id": 1,
+      "month": 12,
+      "year": 2026,
+      "status": "open",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-31"
+    },
+    {
+      "id": 85,
+      "fiscal_year_id": 2,
+      "month": 1,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-01-01",
+      "end_date": "2025-01-31"
+    },
+    {
+      "id": 86,
+      "fiscal_year_id": 2,
+      "month": 2,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-28"
+    },
+    {
+      "id": 87,
+      "fiscal_year_id": 2,
+      "month": 3,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31"
+    },
+    {
+      "id": 88,
+      "fiscal_year_id": 2,
+      "month": 4,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-04-01",
+      "end_date": "2025-04-30"
+    },
+    {
+      "id": 89,
+      "fiscal_year_id": 2,
+      "month": 5,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-31"
+    },
+    {
+      "id": 90,
+      "fiscal_year_id": 2,
+      "month": 6,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-30"
+    },
+    {
+      "id": 91,
+      "fiscal_year_id": 2,
+      "month": 7,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-31"
+    },
+    {
+      "id": 92,
+      "fiscal_year_id": 2,
+      "month": 8,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-31"
+    },
+    {
+      "id": 93,
+      "fiscal_year_id": 2,
+      "month": 9,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-30"
+    },
+    {
+      "id": 94,
+      "fiscal_year_id": 2,
+      "month": 10,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-10-01",
+      "end_date": "2025-10-31"
+    },
+    {
+      "id": 95,
+      "fiscal_year_id": 2,
+      "month": 11,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-11-01",
+      "end_date": "2025-11-30"
+    },
+    {
+      "id": 96,
+      "fiscal_year_id": 2,
+      "month": 12,
+      "year": 2025,
+      "status": "closed",
+      "start_date": "2025-12-01",
+      "end_date": "2025-12-31"
+    }
+  ],
+  "fiscal_years": [
+    {
+      "id": 1,
+      "name": "السنة المالية 2026",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "السنة المالية 2025",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "status": "closed"
+    }
+  ],
+  "gl_audit_logs": [],
+  "budgets": [],
+  "account_config": [
+    {
+      "id": 1,
+      "key": "sales_revenue",
+      "description": "إيراد المبيعات"
+    },
+    {
+      "id": 2,
+      "key": "sales_discount",
+      "description": "خصومات المبيعات (حساب مقابل)"
+    },
+    {
+      "id": 3,
+      "key": "sales_returns",
+      "description": "مرتجعات المبيعات (حساب مقابل)"
+    },
+    {
+      "id": 4,
+      "key": "cash",
+      "description": "الصندوق والبنوك"
+    },
+    {
+      "id": 5,
+      "key": "bank",
+      "description": "الحسابات البنكية"
+    },
+    {
+      "id": 6,
+      "key": "accounts_receivable",
+      "description": "العملاء (المدينون)"
+    },
+    {
+      "id": 7,
+      "key": "accounts_payable",
+      "description": "الموردون (الدائنون)"
+    },
+    {
+      "id": 8,
+      "key": "payroll_expense",
+      "description": "مصروف المرتبات والأجور"
+    },
+    {
+      "id": 9,
+      "key": "employee_advances",
+      "description": "سلف الموظفين (أصول)"
+    },
+    {
+      "id": 10,
+      "key": "inventory_asset",
+      "description": "المخزون (أصل)"
+    },
+    {
+      "id": 11,
+      "key": "cost_of_goods_sold",
+      "description": "تكلفة البضاعة المباعة"
+    },
+    {
+      "id": 12,
+      "key": "cost_expense",
+      "description": "مصروفات تشغيلية عامة"
+    },
+    {
+      "id": 13,
+      "key": "rent_expense",
+      "description": "مصروف الإيجار"
+    },
+    {
+      "id": 14,
+      "key": "utilities_expense",
+      "description": "مصروف المرافق (كهرباء/مياه/غاز)"
+    },
+    {
+      "id": 15,
+      "key": "maintenance_expense",
+      "description": "مصروف الصيانة"
+    },
+    {
+      "id": 16,
+      "key": "marketing_expense",
+      "description": "مصروف التسويق والإعلان"
+    },
+    {
+      "id": 17,
+      "key": "supplies_expense",
+      "description": "مصروف المستلزمات"
+    },
+    {
+      "id": 18,
+      "key": "insurance_expense",
+      "description": "مصروف التأمين"
+    },
+    {
+      "id": 19,
+      "key": "transport_expense",
+      "description": "مصروف النقل والتوصيل"
+    },
+    {
+      "id": 20,
+      "key": "food_revenue",
+      "description": "إيراد مبيعات الأغذية"
+    },
+    {
+      "id": 21,
+      "key": "delivery_revenue",
+      "description": "إيراد التوصيل"
+    },
+    {
+      "id": 22,
+      "key": "other_income",
+      "description": "إيرادات أخرى"
+    },
+    {
+      "id": 23,
+      "key": "other_expense",
+      "description": "مصروفات أخرى"
+    },
+    {
+      "id": 24,
+      "key": "refund_expense",
+      "description": "مصروف المردودات والتعويضات"
+    },
+    {
+      "id": 25,
+      "key": "tax_payable",
+      "description": "الضرائب المستحقة (VAT)"
+    },
+    {
+      "id": 26,
+      "key": "retained_earnings_account",
+      "description": "أرباح محتجزة"
+    },
+    {
+      "id": 27,
+      "key": "income_summary_account",
+      "description": "قائمة الدخل (فترة إقفال)"
+    },
+    {
+      "id": 28,
+      "key": "sales_revenue",
+      "description": "إيراد المبيعات"
+    },
+    {
+      "id": 29,
+      "key": "sales_discount",
+      "description": "خصومات المبيعات (حساب مقابل)"
+    },
+    {
+      "id": 30,
+      "key": "sales_returns",
+      "description": "مرتجعات المبيعات (حساب مقابل)"
+    },
+    {
+      "id": 31,
+      "key": "cash",
+      "description": "الصندوق والبنوك"
+    },
+    {
+      "id": 32,
+      "key": "bank",
+      "description": "الحسابات البنكية"
+    },
+    {
+      "id": 33,
+      "key": "accounts_receivable",
+      "description": "العملاء (المدينون)"
+    },
+    {
+      "id": 34,
+      "key": "accounts_payable",
+      "description": "الموردون (الدائنون)"
+    },
+    {
+      "id": 35,
+      "key": "payroll_expense",
+      "description": "مصروف المرتبات والأجور"
+    },
+    {
+      "id": 36,
+      "key": "employee_advances",
+      "description": "سلف الموظفين (أصول)"
+    },
+    {
+      "id": 37,
+      "key": "inventory_asset",
+      "description": "المخزون (أصل)"
+    },
+    {
+      "id": 38,
+      "key": "cost_of_goods_sold",
+      "description": "تكلفة البضاعة المباعة"
+    },
+    {
+      "id": 39,
+      "key": "cost_expense",
+      "description": "مصروفات تشغيلية عامة"
+    },
+    {
+      "id": 40,
+      "key": "rent_expense",
+      "description": "مصروف الإيجار"
+    },
+    {
+      "id": 41,
+      "key": "utilities_expense",
+      "description": "مصروف المرافق (كهرباء/مياه/غاز)"
+    },
+    {
+      "id": 42,
+      "key": "maintenance_expense",
+      "description": "مصروف الصيانة"
+    },
+    {
+      "id": 43,
+      "key": "marketing_expense",
+      "description": "مصروف التسويق والإعلان"
+    },
+    {
+      "id": 44,
+      "key": "supplies_expense",
+      "description": "مصروف المستلزمات"
+    },
+    {
+      "id": 45,
+      "key": "insurance_expense",
+      "description": "مصروف التأمين"
+    },
+    {
+      "id": 46,
+      "key": "transport_expense",
+      "description": "مصروف النقل والتوصيل"
+    },
+    {
+      "id": 47,
+      "key": "food_revenue",
+      "description": "إيراد مبيعات الأغذية"
+    },
+    {
+      "id": 48,
+      "key": "delivery_revenue",
+      "description": "إيراد التوصيل"
+    },
+    {
+      "id": 49,
+      "key": "other_income",
+      "description": "إيرادات أخرى"
+    },
+    {
+      "id": 50,
+      "key": "other_expense",
+      "description": "مصروفات أخرى"
+    },
+    {
+      "id": 51,
+      "key": "refund_expense",
+      "description": "مصروف المردودات والتعويضات"
+    },
+    {
+      "id": 52,
+      "key": "tax_payable",
+      "description": "الضرائب المستحقة (VAT)"
+    },
+    {
+      "id": 53,
+      "key": "retained_earnings_account",
+      "description": "أرباح محتجزة"
+    },
+    {
+      "id": 54,
+      "key": "income_summary_account",
+      "description": "قائمة الدخل (فترة إقفال)"
+    },
+    {
+      "id": 55,
+      "key": "sales_revenue",
+      "description": "إيراد المبيعات"
+    },
+    {
+      "id": 56,
+      "key": "sales_discount",
+      "description": "خصومات المبيعات (حساب مقابل)"
+    },
+    {
+      "id": 57,
+      "key": "sales_returns",
+      "description": "مرتجعات المبيعات (حساب مقابل)"
+    },
+    {
+      "id": 58,
+      "key": "cash",
+      "description": "الصندوق والبنوك"
+    },
+    {
+      "id": 59,
+      "key": "bank",
+      "description": "الحسابات البنكية"
+    },
+    {
+      "id": 60,
+      "key": "accounts_receivable",
+      "description": "العملاء (المدينون)"
+    },
+    {
+      "id": 61,
+      "key": "accounts_payable",
+      "description": "الموردون (الدائنون)"
+    },
+    {
+      "id": 62,
+      "key": "payroll_expense",
+      "description": "مصروف المرتبات والأجور"
+    },
+    {
+      "id": 63,
+      "key": "employee_advances",
+      "description": "سلف الموظفين (أصول)"
+    },
+    {
+      "id": 64,
+      "key": "inventory_asset",
+      "description": "المخزون (أصل)"
+    },
+    {
+      "id": 65,
+      "key": "cost_of_goods_sold",
+      "description": "تكلفة البضاعة المباعة"
+    },
+    {
+      "id": 66,
+      "key": "cost_expense",
+      "description": "مصروفات تشغيلية عامة"
+    },
+    {
+      "id": 67,
+      "key": "rent_expense",
+      "description": "مصروف الإيجار"
+    },
+    {
+      "id": 68,
+      "key": "utilities_expense",
+      "description": "مصروف المرافق (كهرباء/مياه/غاز)"
+    },
+    {
+      "id": 69,
+      "key": "maintenance_expense",
+      "description": "مصروف الصيانة"
+    },
+    {
+      "id": 70,
+      "key": "marketing_expense",
+      "description": "مصروف التسويق والإعلان"
+    },
+    {
+      "id": 71,
+      "key": "supplies_expense",
+      "description": "مصروف المستلزمات"
+    },
+    {
+      "id": 72,
+      "key": "insurance_expense",
+      "description": "مصروف التأمين"
+    },
+    {
+      "id": 73,
+      "key": "transport_expense",
+      "description": "مصروف النقل والتوصيل"
+    },
+    {
+      "id": 74,
+      "key": "food_revenue",
+      "description": "إيراد مبيعات الأغذية"
+    },
+    {
+      "id": 75,
+      "key": "delivery_revenue",
+      "description": "إيراد التوصيل"
+    },
+    {
+      "id": 76,
+      "key": "other_income",
+      "description": "إيرادات أخرى"
+    },
+    {
+      "id": 77,
+      "key": "other_expense",
+      "description": "مصروفات أخرى"
+    },
+    {
+      "id": 78,
+      "key": "refund_expense",
+      "description": "مصروف المردودات والتعويضات"
+    },
+    {
+      "id": 79,
+      "key": "tax_payable",
+      "description": "الضرائب المستحقة (VAT)"
+    },
+    {
+      "id": 80,
+      "key": "retained_earnings_account",
+      "description": "أرباح محتجزة"
+    },
+    {
+      "id": 81,
+      "key": "income_summary_account",
+      "description": "قائمة الدخل (فترة إقفال)"
+    },
+    {
+      "id": 82,
+      "key": "sales_revenue",
+      "description": "إيراد المبيعات"
+    },
+    {
+      "id": 83,
+      "key": "sales_discount",
+      "description": "خصومات المبيعات (حساب مقابل)"
+    },
+    {
+      "id": 84,
+      "key": "sales_returns",
+      "description": "مرتجعات المبيعات (حساب مقابل)"
+    },
+    {
+      "id": 85,
+      "key": "cash",
+      "description": "الصندوق والبنوك"
+    },
+    {
+      "id": 86,
+      "key": "bank",
+      "description": "الحسابات البنكية"
+    },
+    {
+      "id": 87,
+      "key": "accounts_receivable",
+      "description": "العملاء (المدينون)"
+    },
+    {
+      "id": 88,
+      "key": "accounts_payable",
+      "description": "الموردون (الدائنون)"
+    },
+    {
+      "id": 89,
+      "key": "payroll_expense",
+      "description": "مصروف المرتبات والأجور"
+    },
+    {
+      "id": 90,
+      "key": "employee_advances",
+      "description": "سلف الموظفين (أصول)"
+    },
+    {
+      "id": 91,
+      "key": "inventory_asset",
+      "description": "المخزون (أصل)"
+    },
+    {
+      "id": 92,
+      "key": "cost_of_goods_sold",
+      "description": "تكلفة البضاعة المباعة"
+    },
+    {
+      "id": 93,
+      "key": "cost_expense",
+      "description": "مصروفات تشغيلية عامة"
+    },
+    {
+      "id": 94,
+      "key": "rent_expense",
+      "description": "مصروف الإيجار"
+    },
+    {
+      "id": 95,
+      "key": "utilities_expense",
+      "description": "مصروف المرافق (كهرباء/مياه/غاز)"
+    },
+    {
+      "id": 96,
+      "key": "maintenance_expense",
+      "description": "مصروف الصيانة"
+    },
+    {
+      "id": 97,
+      "key": "marketing_expense",
+      "description": "مصروف التسويق والإعلان"
+    },
+    {
+      "id": 98,
+      "key": "supplies_expense",
+      "description": "مصروف المستلزمات"
+    },
+    {
+      "id": 99,
+      "key": "insurance_expense",
+      "description": "مصروف التأمين"
+    },
+    {
+      "id": 100,
+      "key": "transport_expense",
+      "description": "مصروف النقل والتوصيل"
+    },
+    {
+      "id": 101,
+      "key": "food_revenue",
+      "description": "إيراد مبيعات الأغذية"
+    },
+    {
+      "id": 102,
+      "key": "delivery_revenue",
+      "description": "إيراد التوصيل"
+    },
+    {
+      "id": 103,
+      "key": "other_income",
+      "description": "إيرادات أخرى"
+    },
+    {
+      "id": 104,
+      "key": "other_expense",
+      "description": "مصروفات أخرى"
+    },
+    {
+      "id": 105,
+      "key": "refund_expense",
+      "description": "مصروف المردودات والتعويضات"
+    },
+    {
+      "id": 106,
+      "key": "tax_payable",
+      "description": "الضرائب المستحقة (VAT)"
+    },
+    {
+      "id": 107,
+      "key": "retained_earnings_account",
+      "description": "أرباح محتجزة"
+    },
+    {
+      "id": 108,
+      "key": "income_summary_account",
+      "description": "قائمة الدخل (فترة إقفال)"
+    }
+  ],
+  "sub_ledger_entries": [],
+  "document_sequences": [
+    {
+      "id": 1,
+      "document_type": "journal_entry",
+      "prefix": "JE",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 2,
+      "document_type": "receipt_voucher",
+      "prefix": "RV",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 3,
+      "document_type": "payment_voucher",
+      "prefix": "PV",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 4,
+      "document_type": "journal_entry",
+      "prefix": "JE",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 5,
+      "document_type": "receipt_voucher",
+      "prefix": "RV",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 6,
+      "document_type": "payment_voucher",
+      "prefix": "PV",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 7,
+      "document_type": "journal_entry",
+      "prefix": "JE",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 8,
+      "document_type": "receipt_voucher",
+      "prefix": "RV",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 9,
+      "document_type": "payment_voucher",
+      "prefix": "PV",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 10,
+      "document_type": "journal_entry",
+      "prefix": "JE",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 11,
+      "document_type": "receipt_voucher",
+      "prefix": "RV",
+      "padding": 6,
+      "reset_period": "yearly"
+    },
+    {
+      "id": 12,
+      "document_type": "payment_voucher",
+      "prefix": "PV",
+      "padding": 6,
+      "reset_period": "yearly"
+    }
+  ],
+  "web_orders": [],
+  "web_order_items": [],
+  "sales_orders": [
+    {
+      "id": 1,
+      "order_no": "SAL-ORD-2025-00001",
+      "customer_name": "العميل Demo",
+      "warehouse_id": 1,
+      "notes": "طلب توريد عاجل لمستلزمات الصيف",
+      "status": "pending",
+      "delivery_percentage": "0.00"
+    }
+  ],
+  "sales_order_items": [
+    {
+      "id": 1,
+      "sales_order_id": 1,
+      "ingredient_id": 1,
+      "quantity": "10",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "sales_order_id": 1,
+      "ingredient_id": 2,
+      "quantity": "10",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "sales_order_id": 1,
+      "ingredient_id": 3,
+      "quantity": "8",
+      "price": 400
+    }
+  ],
+  "delivery_notes": [],
+  "delivery_note_items": [],
+  "chat_messages": [],
+  "system_settings": [],
+  "organizations": [
+    {
+      "id": 1,
+      "org_code": "ORG-TG",
+      "org_name_ar": "مؤسسة تراستس جانكو",
+      "org_name_en": "Trusts Janco Organization",
+      "is_active": "true"
+    }
+  ],
+  "hr_settings": [],
+  "hr_leave_requests": [],
+  "hr_evaluations": [],
+  "hr_employee_documents": [],
+  "hr_training_courses": [],
+  "hr_training_enrollments": [],
+  "hr_overtime_requests": [],
+  "hr_recruitment_requests": [],
+  "employee_status_history": [],
+  "hr_annual_increases": [],
+  "employee_notifications": [],
+  "clearance_records": [],
+  "payroll_elements": [
+    {
+      "id": 1,
+      "name": "بدل طبيعة عمل",
+      "type": "addition",
+      "rule_type": "fixed",
+      "value": "500.00",
+      "is_system": "true"
+    }
+  ],
+  "employee_payroll_elements": [],
+  "custody_store_items": [],
+  "employee_custody": [],
+  "warehouse_sections": [],
+  "production_bonuses": [],
+  "treasury_daily_closings": [],
+  "approval_requests": [],
+  "approval_settings": [
+    {
+      "id": 1,
+      "module_type": "purchase_order",
+      "min_approver_role": "manager"
+    },
+    {
+      "id": 2,
+      "module_type": "purchase_return",
+      "min_approver_role": "manager"
+    },
+    {
+      "id": 3,
+      "module_type": "operating_cost",
+      "min_approver_role": "manager"
+    },
+    {
+      "id": 4,
+      "module_type": "sales_return",
+      "min_approver_role": "manager"
+    },
+    {
+      "id": 5,
+      "module_type": "journal_entry",
+      "min_approver_role": "accountant"
+    },
+    {
+      "id": 6,
+      "module_type": "treasury_transaction",
+      "min_approver_role": "manager"
+    }
+  ],
+  "warehouse_stock_alerts": [],
+  "companies": [],
+  "roles": [
+    {
+      "id": 1,
+      "name": "admin",
+      "name_ar": "مدير النظام",
+      "description": "صلاحيات كاملة على كل شيء",
+      "is_system": true
+    },
+    {
+      "id": 2,
+      "name": "manager",
+      "name_ar": "مدير فرع",
+      "description": "إدارة الفرع والعمليات اليومية",
+      "is_system": true
+    },
+    {
+      "id": 3,
+      "name": "accountant",
+      "name_ar": "محاسب",
+      "description": "الوصول للمحاسبة والخزينة والتقارير المالية",
+      "is_system": true
+    },
+    {
+      "id": 4,
+      "name": "cashier",
+      "name_ar": "كاشير",
+      "description": "شاشة نقطة البيع والفواتير",
+      "is_system": true
+    },
+    {
+      "id": 5,
+      "name": "inventory_keeper",
+      "name_ar": "أمين مخزن",
+      "description": "إدارة المخزون والمستودعات",
+      "is_system": true
+    },
+    {
+      "id": 6,
+      "name": "purchasing",
+      "name_ar": "مشتريات",
+      "description": "طلبات الشراء والموردين",
+      "is_system": true
+    },
+    {
+      "id": 7,
+      "name": "hr_manager",
+      "name_ar": "مدير موارد بشرية",
+      "description": "إدارة الموظفين والرواتب",
+      "is_system": true
+    },
+    {
+      "id": 8,
+      "name": "production_manager",
+      "name_ar": "مدير إنتاج",
+      "description": "إدارة خطوط الإنتاج",
+      "is_system": true
+    },
+    {
+      "id": 9,
+      "name": "viewer",
+      "name_ar": "مشاهد فقط",
+      "description": "عرض التقارير بدون تعديل",
+      "is_system": true
+    }
+  ],
+  "role_permissions": [],
+  "batch_tracking": [],
+  "reordering_rules": [],
+  "stock_valuation": [],
+  "production_boms": [],
+  "bom_items": [],
+  "work_centers": [],
+  "manufacturing_orders": [],
+  "manufacturing_order_items": [],
+  "production_routing": [],
+  "quality_checks": [],
+  "scrap_records": [],
+  "maintenance_assets": [],
+  "maintenance_requests": [],
+  "maintenance_work_orders": [],
+  "preventive_maintenance": [],
+  "maintenance_consumption": [],
+  "crm_leads": [],
+  "crm_opportunities": [],
+  "crm_activities": [],
+  "crm_pipelines": [],
+  "crm_quotations": [],
+  "crm_quotation_items": [],
+  "recipes": [],
+  "recipe_ingredients": [],
+  "waste_records": [],
+  "enterprise_audit_log": [],
+  "daily_kpi_snapshots": [],
+  "hotel_room_types": [
+    {
+      "id": 1,
+      "hotel_id": 1,
+      "name": "غرفة فردية قياسية (Standard Single Room)",
+      "code": "SGL-STD",
+      "capacity": 1,
+      "beds_count": 1,
+      "base_price": 1100,
+      "description": "غرفة فردية مجهزة بالكامل بإطلالة حديقة ومكتب عمل",
+      "amenities": "WiFi, Smart TV, AC, Safe, Minibar, Desk"
+    },
+    {
+      "id": 2,
+      "hotel_id": 1,
+      "name": "غرفة ديلوكس مزدوجة مطلة (Deluxe Sea View)",
+      "code": "DBL-DLX",
+      "capacity": 2,
+      "beds_count": 1,
+      "base_price": 1800,
+      "description": "غرفة دبل سرير كينج مع بلكونة خاصة مطلة وميني بار",
+      "amenities": "WiFi, 55in 4K TV, AC, Safe, Minibar, Balcony, Sea View"
+    },
+    {
+      "id": 3,
+      "hotel_id": 1,
+      "name": "غرفة عائلية متصلة (Family Connecting Suite)",
+      "code": "FAM-CNT",
+      "capacity": 4,
+      "beds_count": 3,
+      "base_price": 2900,
+      "description": "غرفتان متصلتان بباب داخلي للعائلات مع حمامين مستقلين",
+      "amenities": "WiFi, 2x Smart TVs, AC, Safe, 2x Minibars, Balcony"
+    },
+    {
+      "id": 4,
+      "hotel_id": 1,
+      "name": "جناح جونيور تنفيذي (Executive Junior Suite)",
+      "code": "STE-EXEC",
+      "capacity": 3,
+      "beds_count": 2,
+      "base_price": 3800,
+      "description": "جناح أعمال فاخر يحتوي على صالة استقبال وجاكوزي خاص",
+      "amenities": "WiFi, 65in TV, AC, Jacuzzi, Safe, Minibar, Espresso Bar"
+    },
+    {
+      "id": 5,
+      "hotel_id": 1,
+      "name": "جناح رئاسي بانورامي (Presidential Suite)",
+      "code": "STE-PRES",
+      "capacity": 4,
+      "beds_count": 2,
+      "base_price": 5500,
+      "description": "جناح رئاسي فسيح بإطلالة بانورامية كاملة 180 درجة وصالة طعام",
+      "amenities": "WiFi, 75in TV, AC, Jacuzzi, Dining Table, Premium Minibar"
+    },
+    {
+      "id": 6,
+      "hotel_id": 1,
+      "name": "جناح ملكي VIP فاخر (Royal VIP Suite)",
+      "code": "VIP-LUX",
+      "capacity": 4,
+      "beds_count": 3,
+      "base_price": 7500,
+      "description": "الجناح الملكي الأرقى مع خدمة خادم شخصي ومسبح خاص وجاكوزي",
+      "amenities": "WiFi, 85in TV, AC, Private Pool, Jacuzzi, Butler Service"
+    },
+    {
+      "id": 7,
+      "hotel_id": 1,
+      "name": "بنتهاوس روف مع مسبح خاص (Rooftop Penthouse)",
+      "code": "PNT-POOL",
+      "capacity": 6,
+      "beds_count": 3,
+      "base_price": 9500,
+      "description": "بنتهاوس في الطابق الأخير مع تراس بانورامي ومسبح إنفينيتي",
+      "amenities": "WiFi, Cinema Screen, Private Rooftop Pool, BBQ Area"
+    },
+    {
+      "id": 8,
+      "hotel_id": 1,
+      "name": "فيلا شاطئية عائلية مستقلة (Beachfront Villa)",
+      "code": "VLLA-BEACH",
+      "capacity": 8,
+      "beds_count": 5,
+      "base_price": 12000,
+      "description": "فيلا مستقلة على الشاطئ مباشرة مع حديقة ومسبح ومطبخ كامل",
+      "amenities": "WiFi, Full Kitchen, Private Beach, Private Pool, Butler"
+    }
+  ],
+  "hotel_rooms": [
+    {
+      "id": 1,
+      "hotel_id": 1,
+      "room_number": "101",
+      "room_type_id": 1,
+      "floor": 1,
+      "capacity": "2",
+      "price": 1100,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 2,
+      "hotel_id": 1,
+      "room_number": "102",
+      "room_type_id": 2,
+      "floor": 1,
+      "capacity": "2",
+      "price": 1800,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 3,
+      "hotel_id": 1,
+      "room_number": "103",
+      "room_type_id": 2,
+      "floor": 1,
+      "capacity": "2",
+      "price": 1800,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 4,
+      "hotel_id": 1,
+      "room_number": "104",
+      "room_type_id": 2,
+      "floor": 1,
+      "capacity": "2",
+      "price": 1800,
+      "status": "reserved",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 5,
+      "hotel_id": 1,
+      "room_number": "105",
+      "room_type_id": 2,
+      "floor": 1,
+      "capacity": "2",
+      "price": 1800,
+      "status": "dirty",
+      "housekeeping_status": "dirty"
+    },
+    {
+      "id": 6,
+      "hotel_id": 1,
+      "room_number": "106",
+      "room_type_id": 1,
+      "floor": 1,
+      "capacity": "2",
+      "price": 1100,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 7,
+      "hotel_id": 1,
+      "room_number": "107",
+      "room_type_id": 3,
+      "floor": 1,
+      "capacity": "2",
+      "price": 2900,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 8,
+      "hotel_id": 1,
+      "room_number": "108",
+      "room_type_id": 3,
+      "floor": 1,
+      "capacity": "2",
+      "price": 2900,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 9,
+      "hotel_id": 1,
+      "room_number": "201",
+      "room_type_id": 2,
+      "floor": 2,
+      "capacity": "2",
+      "price": 1800,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 10,
+      "hotel_id": 1,
+      "room_number": "202",
+      "room_type_id": 4,
+      "floor": 2,
+      "capacity": "2",
+      "price": 3800,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 11,
+      "hotel_id": 1,
+      "room_number": "203",
+      "room_type_id": 4,
+      "floor": 2,
+      "capacity": "2",
+      "price": 3800,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 12,
+      "hotel_id": 1,
+      "room_number": "204",
+      "room_type_id": 4,
+      "floor": 2,
+      "capacity": "2",
+      "price": 3800,
+      "status": "cleaning",
+      "housekeeping_status": "cleaning"
+    },
+    {
+      "id": 13,
+      "hotel_id": 1,
+      "room_number": "205",
+      "room_type_id": 2,
+      "floor": 2,
+      "capacity": "2",
+      "price": 1800,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 14,
+      "hotel_id": 1,
+      "room_number": "206",
+      "room_type_id": 1,
+      "floor": 2,
+      "capacity": "2",
+      "price": 1100,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 15,
+      "hotel_id": 1,
+      "room_number": "207",
+      "room_type_id": 3,
+      "floor": 2,
+      "capacity": "2",
+      "price": 2900,
+      "status": "reserved",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 16,
+      "hotel_id": 1,
+      "room_number": "208",
+      "room_type_id": 2,
+      "floor": 2,
+      "capacity": "2",
+      "price": 1800,
+      "status": "maintenance",
+      "housekeeping_status": "dirty"
+    },
+    {
+      "id": 17,
+      "hotel_id": 1,
+      "room_number": "301",
+      "room_type_id": 5,
+      "floor": 3,
+      "capacity": "2",
+      "price": 5500,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 18,
+      "hotel_id": 1,
+      "room_number": "302",
+      "room_type_id": 5,
+      "floor": 3,
+      "capacity": "2",
+      "price": 5500,
+      "status": "maintenance",
+      "housekeeping_status": "dirty"
+    },
+    {
+      "id": 19,
+      "hotel_id": 1,
+      "room_number": "303",
+      "room_type_id": 4,
+      "floor": 3,
+      "capacity": "2",
+      "price": 3800,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 20,
+      "hotel_id": 1,
+      "room_number": "304",
+      "room_type_id": 4,
+      "floor": 3,
+      "capacity": "2",
+      "price": 3800,
+      "status": "reserved",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 21,
+      "hotel_id": 1,
+      "room_number": "305",
+      "room_type_id": 5,
+      "floor": 3,
+      "capacity": "2",
+      "price": 5500,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 22,
+      "hotel_id": 1,
+      "room_number": "306",
+      "room_type_id": 2,
+      "floor": 3,
+      "capacity": "2",
+      "price": 1800,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 23,
+      "hotel_id": 1,
+      "room_number": "401",
+      "room_type_id": 6,
+      "floor": 4,
+      "capacity": "2",
+      "price": 7500,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 24,
+      "hotel_id": 1,
+      "room_number": "402",
+      "room_type_id": 6,
+      "floor": 4,
+      "capacity": "2",
+      "price": 7500,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 25,
+      "hotel_id": 1,
+      "room_number": "403",
+      "room_type_id": 6,
+      "floor": 4,
+      "capacity": "2",
+      "price": 7500,
+      "status": "reserved",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 26,
+      "hotel_id": 1,
+      "room_number": "404",
+      "room_type_id": 5,
+      "floor": 4,
+      "capacity": "2",
+      "price": 5500,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 27,
+      "hotel_id": 1,
+      "room_number": "501",
+      "room_type_id": 7,
+      "floor": 5,
+      "capacity": "2",
+      "price": 9500,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 28,
+      "hotel_id": 1,
+      "room_number": "502",
+      "room_type_id": 7,
+      "floor": 5,
+      "capacity": "2",
+      "price": 9500,
+      "status": "available",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 29,
+      "hotel_id": 1,
+      "room_number": "503",
+      "room_type_id": 8,
+      "floor": 5,
+      "capacity": "2",
+      "price": 12000,
+      "status": "occupied",
+      "housekeeping_status": "clean"
+    },
+    {
+      "id": 30,
+      "hotel_id": 1,
+      "room_number": "504",
+      "room_type_id": 8,
+      "floor": 5,
+      "capacity": "2",
+      "price": 12000,
+      "status": "available",
+      "housekeeping_status": "clean"
+    }
+  ],
+  "hotel_guests": [
+    {
+      "id": 1,
+      "full_name": "د. أحمد عبد العزيز",
+      "nationality": "مصري",
+      "id_number": "29001011203456",
+      "phone": "+201099887766",
+      "email": "ahmed.aziz@example.com",
+      "notes": "عميل VIP مكرر"
+    },
+    {
+      "id": 2,
+      "full_name": "Mr. Alexander Wright",
+      "nationality": "بريطاني",
+      "passport_number": "GB987654321",
+      "phone": "+447700900123",
+      "email": "alex.wright@example.com",
+      "notes": "وفد رجال أعمال وسياحة"
+    },
+    {
+      "id": 3,
+      "full_name": "المهندسة مريم العتيبي",
+      "nationality": "سعودية",
+      "passport_number": "KSA90901234",
+      "phone": "+966501234567",
+      "email": "mariam.otaibi@example.com",
+      "notes": "عائلة VIP - حجز فيلا شاطئية"
+    }
+  ],
+  "hotel_reservations": [
+    {
+      "id": 1,
+      "reservation_number": "RES-2026-1001",
+      "hotel_id": 1,
+      "guest_id": 1,
+      "guest_name": "د. أحمد عبد العزيز",
+      "guest_phone": "+201099887766",
+      "room_id": 2,
+      "room_type_id": 2,
+      "check_in_date": "2026-09-02",
+      "check_out_date": "2026-09-05",
+      "nights_count": 3,
+      "adults": 2,
+      "room_rate": 1800,
+      "total_amount": 5400,
+      "paid_amount": 5400,
+      "remaining_amount": 0,
+      "payment_method": "visa",
+      "status": "checked_in",
+      "notes": "تم التسكين واستلام كروت الغرفة"
+    },
+    {
+      "id": 2,
+      "reservation_number": "RES-2026-1002",
+      "hotel_id": 1,
+      "guest_id": 2,
+      "guest_name": "Mr. Alexander Wright",
+      "guest_phone": "+447700900123",
+      "room_id": 11,
+      "room_type_id": 4,
+      "check_in_date": "2026-09-02",
+      "check_out_date": "2026-09-07",
+      "nights_count": 5,
+      "adults": 2,
+      "room_rate": 3800,
+      "total_amount": 19000,
+      "paid_amount": 10000,
+      "remaining_amount": 9000,
+      "payment_method": "mastercard",
+      "status": "checked_in",
+      "notes": "جناح تنفيذي مع دخول صالة الأعمال"
+    },
+    {
+      "id": 3,
+      "reservation_number": "RES-2026-1003",
+      "hotel_id": 1,
+      "guest_id": 3,
+      "guest_name": "المهندسة مريم العتيبي",
+      "guest_phone": "+966501234567",
+      "room_id": 29,
+      "room_type_id": 8,
+      "check_in_date": "2026-09-02",
+      "check_out_date": "2026-09-07",
+      "nights_count": 5,
+      "adults": 5,
+      "room_rate": 12000,
+      "total_amount": 60000,
+      "paid_amount": 60000,
+      "remaining_amount": 0,
+      "payment_method": "bank_transfer",
+      "status": "checked_in",
+      "notes": "فيلا شاطئية مسددة بالكامل"
+    }
+  ],
+  "hotel_folios": [
+    {
+      "id": 1,
+      "reservation_id": 1,
+      "guest_id": 1,
+      "room_id": 2,
+      "subtotal": "5400.00",
+      "tax_total": "756.00",
+      "grand_total": "6156.00",
+      "paid_total": "6156.00",
+      "balance": "0.00",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "reservation_id": 2,
+      "guest_id": 2,
+      "room_id": 11,
+      "subtotal": "19000.00",
+      "tax_total": "2660.00",
+      "grand_total": "21660.00",
+      "paid_total": "10000.00",
+      "balance": "11660.00",
+      "status": "open"
+    }
+  ],
+  "hotel_folio_charges": [
+    {
+      "id": 1,
+      "folio_id": 1,
+      "type": "room_charge",
+      "description": "إقامة 3 ليالي غرفة ديلوكس 102",
+      "amount": "5400.00"
+    },
+    {
+      "id": 2,
+      "folio_id": 2,
+      "type": "room_charge",
+      "description": "إقامة 5 ليالي جناح تنفيذي 203",
+      "amount": "19000.00"
+    }
+  ],
+  "hotel_housekeeping": [
+    {
+      "id": 1,
+      "hotel_id": 1,
+      "room_id": 5,
+      "cleaning_status": "dirty",
+      "assigned_staff_name": "سارة محمود",
+      "notes": "تحتاج تنظيف شامل وتغيير الملاءات والمناشف بعد المغادرة"
+    }
+  ],
+  "hotel_maintenance": [
+    {
+      "id": 1,
+      "hotel_id": 1,
+      "room_id": 16,
+      "problem": "عطل في التكييف المركزي وتسريب مياه بالدش",
+      "priority": "high",
+      "description": "تطلب صيانة فورية واستبدال وحدة التبريد",
+      "assigned_technician_name": "م. حسن العلي",
+      "status": "in_progress",
+      "cost": "450.00"
+    }
+  ],
+  "hotel_settings": [],
+  "wastage_reasons": [],
+  "warehouse_locations": [],
+  "item_barcodes": [],
+  "item_uom_conversions": [],
+  "item_suppliers": [],
+  "item_serials": [],
+  "stock_cost_layers": [],
+  "goods_receipts": [],
+  "goods_receipt_items": [],
+  "qc_inspection_records": [],
+  "supplier_return_requests": [],
+  "supplier_return_items": [],
+  "goods_receipt_attachments": [],
+  "goods_receipt_putaway": [],
+  "stock_reservations": [],
+  "quality_inspections": [],
+  "inventory_settings": [
+    {
+      "id": 1,
+      "costing_method": "weighted_average",
+      "allow_negative_stock": "false",
+      "require_approval_for_transactions": "true",
+      "require_qc_for_receipts": "false",
+      "auto_post_receipts": "false",
+      "expiry_warning_days": "30",
+      "enable_fefo": "true",
+      "enable_multi_uom": "true",
+      "enable_barcode_scanner": "true",
+      "enable_ai_reorder": "true",
+      "inventory_policy": "periodic",
+      "default_reorder_point": "10",
+      "allowed_wastage_percentage": "2.5",
+      "lock_stock_during_count": "true",
+      "auto_link_accounts": "true"
+    }
+  ],
+  "warehouse_types": [
+    {
+      "id": 1,
+      "name": "'مستودع رئيسي (مركزي",
+      "code": "",
+      "description": "",
+      "is_active": "",
+      "is_system": ""
+    }
+  ],
+  "transaction_types": [
+    {
+      "id": 1,
+      "name": "'استلام وارد (GRN",
+      "code": "",
+      "effect": "",
+      "requires_approval": "",
+      "is_system": "",
+      "is_active": "",
+      "description": ""
+    }
+  ],
+  "transaction_reasons": [
+    {
+      "id": 1,
+      "name": "تالف أثناء التخزين",
+      "code": "storage_damage",
+      "transaction_type": "wastage",
+      "description": "تلف ناتج عن سوء التخزين أو رطوبة أو حرارة",
+      "is_active": "true",
+      "is_system": "true"
+    }
+  ],
+  "inventory_audit_trail": [],
+  "ai_developer_audit_logs": [],
+  "_enterprise_migrations": [
+    {
+      "id": 1,
+      "version": "ENT_001",
+      "name": "Add company_id and branch_id to core tables",
+      "module": "enterprise",
+      "type": "schema",
+      "execution_time_ms": 1,
+      "status": "success"
+    },
+    {
+      "id": 2,
+      "version": "ENT_002",
+      "name": "Add company_id to users table and JWT payload",
+      "module": "enterprise",
+      "type": "schema",
+      "execution_time_ms": 0,
+      "status": "success"
+    },
+    {
+      "id": 3,
+      "version": "ENT_003",
+      "name": "Create enhanced permission structure (module-action level)",
+      "module": "enterprise",
+      "type": "schema",
+      "execution_time_ms": 2,
+      "status": "success"
+    },
+    {
+      "id": 4,
+      "version": "ENT_004",
+      "name": "Add composite indexes for company/branch filtering performance",
+      "module": "enterprise",
+      "type": "index",
+      "execution_time_ms": 0,
+      "status": "success"
+    },
+    {
+      "id": 5,
+      "version": "ENT_005",
+      "name": "Seed permission modules and actions for enterprise RBAC",
+      "module": "enterprise",
+      "type": "seed",
+      "execution_time_ms": 259,
+      "status": "success"
+    },
+    {
+      "id": 6,
+      "version": "ENT_006",
+      "name": "Enhance enterprise_audit_log with risk_level and changed_fields",
+      "module": "enterprise",
+      "type": "schema",
+      "execution_time_ms": 0,
+      "status": "success"
+    }
+  ],
+  "permission_modules": [
+    {
+      "id": 1,
+      "module_key": "pos",
+      "name_ar": "نقاط البيع",
+      "name_en": "POS",
+      "category": "operations",
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "module_key": "restaurant",
+      "name_ar": "المطعم",
+      "name_en": "Restaurant",
+      "category": "operations",
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "module_key": "products",
+      "name_ar": "المنتجات",
+      "name_en": "Products",
+      "category": "operations",
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "module_key": "inventory",
+      "name_ar": "المخزون",
+      "name_en": "Inventory",
+      "category": "operations",
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "module_key": "warehouses",
+      "name_ar": "المستودعات",
+      "name_en": "Warehouses",
+      "category": "operations",
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "module_key": "purchases",
+      "name_ar": "المشتريات",
+      "name_en": "Purchases",
+      "category": "operations",
+      "sort_order": 6
+    },
+    {
+      "id": 7,
+      "module_key": "suppliers",
+      "name_ar": "الموردين",
+      "name_en": "Suppliers",
+      "category": "operations",
+      "sort_order": 7
+    },
+    {
+      "id": 8,
+      "module_key": "sales",
+      "name_ar": "المبيعات",
+      "name_en": "Sales",
+      "category": "operations",
+      "sort_order": 8
+    },
+    {
+      "id": 9,
+      "module_key": "customers",
+      "name_ar": "العملاء",
+      "name_en": "Customers",
+      "category": "operations",
+      "sort_order": 9
+    },
+    {
+      "id": 10,
+      "module_key": "production",
+      "name_ar": "الإنتاج",
+      "name_en": "Production",
+      "category": "operations",
+      "sort_order": 10
+    },
+    {
+      "id": 11,
+      "module_key": "kitchen",
+      "name_ar": "المطبخ",
+      "name_en": "Kitchen",
+      "category": "operations",
+      "sort_order": 11
+    },
+    {
+      "id": 12,
+      "module_key": "accounting",
+      "name_ar": "المحاسبة",
+      "name_en": "Accounting",
+      "category": "finance",
+      "sort_order": 12
+    },
+    {
+      "id": 13,
+      "module_key": "treasury",
+      "name_ar": "الخزينة",
+      "name_en": "Treasury",
+      "category": "finance",
+      "sort_order": 13
+    },
+    {
+      "id": 14,
+      "module_key": "costs",
+      "name_ar": "التكاليف",
+      "name_en": "Costs",
+      "category": "finance",
+      "sort_order": 14
+    },
+    {
+      "id": 15,
+      "module_key": "hr",
+      "name_ar": "الموارد البشرية",
+      "name_en": "HR",
+      "category": "hr",
+      "sort_order": 15
+    },
+    {
+      "id": 16,
+      "module_key": "payroll",
+      "name_ar": "الرواتب",
+      "name_en": "Payroll",
+      "category": "hr",
+      "sort_order": 16
+    },
+    {
+      "id": 17,
+      "module_key": "attendance",
+      "name_ar": "الحضور",
+      "name_en": "Attendance",
+      "category": "hr",
+      "sort_order": 17
+    },
+    {
+      "id": 18,
+      "module_key": "reports",
+      "name_ar": "التقارير",
+      "name_en": "Reports",
+      "category": "system",
+      "sort_order": 18
+    },
+    {
+      "id": 19,
+      "module_key": "system",
+      "name_ar": "النظام",
+      "name_en": "System",
+      "category": "system",
+      "sort_order": 19
+    },
+    {
+      "id": 20,
+      "module_key": "security",
+      "name_ar": "الأمان",
+      "name_en": "Security",
+      "category": "system",
+      "sort_order": 20
+    },
+    {
+      "id": 21,
+      "module_key": "enterprise",
+      "name_ar": "الشركات والفروع",
+      "name_en": "Enterprise",
+      "category": "system",
+      "sort_order": 21
+    },
+    {
+      "id": 22,
+      "module_key": "maintenance",
+      "name_ar": "الصيانة",
+      "name_en": "Maintenance",
+      "category": "operations",
+      "sort_order": 22
+    },
+    {
+      "id": 23,
+      "module_key": "crm",
+      "name_ar": "إدارة العملاء",
+      "name_en": "CRM",
+      "category": "operations",
+      "sort_order": 23
+    }
+  ],
+  "permission_actions": [
+    {
+      "id": 1,
+      "module_id": 1,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 2,
+      "module_id": 1,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 3,
+      "module_id": 1,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 4,
+      "module_id": 1,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 5,
+      "module_id": 1,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 6,
+      "module_id": 1,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 7,
+      "module_id": 2,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 8,
+      "module_id": 2,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 9,
+      "module_id": 2,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 10,
+      "module_id": 2,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 11,
+      "module_id": 2,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 12,
+      "module_id": 2,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 13,
+      "module_id": 3,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 14,
+      "module_id": 3,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 15,
+      "module_id": 3,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 16,
+      "module_id": 3,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 17,
+      "module_id": 3,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 18,
+      "module_id": 3,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 19,
+      "module_id": 4,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 20,
+      "module_id": 4,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 21,
+      "module_id": 4,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 22,
+      "module_id": 4,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 23,
+      "module_id": 4,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 24,
+      "module_id": 4,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 25,
+      "module_id": 5,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 26,
+      "module_id": 5,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 27,
+      "module_id": 5,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 28,
+      "module_id": 5,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 29,
+      "module_id": 5,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 30,
+      "module_id": 5,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 31,
+      "module_id": 6,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 32,
+      "module_id": 6,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 33,
+      "module_id": 6,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 34,
+      "module_id": 6,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 35,
+      "module_id": 6,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 36,
+      "module_id": 6,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 37,
+      "module_id": 7,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 38,
+      "module_id": 7,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 39,
+      "module_id": 7,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 40,
+      "module_id": 7,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 41,
+      "module_id": 7,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 42,
+      "module_id": 7,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 43,
+      "module_id": 8,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 44,
+      "module_id": 8,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 45,
+      "module_id": 8,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 46,
+      "module_id": 8,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 47,
+      "module_id": 8,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 48,
+      "module_id": 8,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 49,
+      "module_id": 9,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 50,
+      "module_id": 9,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 51,
+      "module_id": 9,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 52,
+      "module_id": 9,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 53,
+      "module_id": 9,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 54,
+      "module_id": 9,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 55,
+      "module_id": 10,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 56,
+      "module_id": 10,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 57,
+      "module_id": 10,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 58,
+      "module_id": 10,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 59,
+      "module_id": 10,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 60,
+      "module_id": 10,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 61,
+      "module_id": 11,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 62,
+      "module_id": 11,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 63,
+      "module_id": 11,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 64,
+      "module_id": 11,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 65,
+      "module_id": 11,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 66,
+      "module_id": 11,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 67,
+      "module_id": 12,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 68,
+      "module_id": 12,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 69,
+      "module_id": 12,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 70,
+      "module_id": 12,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 71,
+      "module_id": 12,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 72,
+      "module_id": 12,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 73,
+      "module_id": 13,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 74,
+      "module_id": 13,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 75,
+      "module_id": 13,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 76,
+      "module_id": 13,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 77,
+      "module_id": 13,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 78,
+      "module_id": 13,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 79,
+      "module_id": 14,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 80,
+      "module_id": 14,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 81,
+      "module_id": 14,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 82,
+      "module_id": 14,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 83,
+      "module_id": 14,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 84,
+      "module_id": 14,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 85,
+      "module_id": 15,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 86,
+      "module_id": 15,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 87,
+      "module_id": 15,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 88,
+      "module_id": 15,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 89,
+      "module_id": 15,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 90,
+      "module_id": 15,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 91,
+      "module_id": 16,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 92,
+      "module_id": 16,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 93,
+      "module_id": 16,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 94,
+      "module_id": 16,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 95,
+      "module_id": 16,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 96,
+      "module_id": 16,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 97,
+      "module_id": 17,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 98,
+      "module_id": 17,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 99,
+      "module_id": 17,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 100,
+      "module_id": 17,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 101,
+      "module_id": 17,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 102,
+      "module_id": 17,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 103,
+      "module_id": 18,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 104,
+      "module_id": 18,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 105,
+      "module_id": 18,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 106,
+      "module_id": 18,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 107,
+      "module_id": 18,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 108,
+      "module_id": 18,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 109,
+      "module_id": 19,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 110,
+      "module_id": 19,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 111,
+      "module_id": 19,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 112,
+      "module_id": 19,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 113,
+      "module_id": 19,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 114,
+      "module_id": 19,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 115,
+      "module_id": 20,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 116,
+      "module_id": 20,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 117,
+      "module_id": 20,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 118,
+      "module_id": 20,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 119,
+      "module_id": 20,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 120,
+      "module_id": 20,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 121,
+      "module_id": 21,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 122,
+      "module_id": 21,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 123,
+      "module_id": 21,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 124,
+      "module_id": 21,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 125,
+      "module_id": 21,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 126,
+      "module_id": 21,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 127,
+      "module_id": 22,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 128,
+      "module_id": 22,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 129,
+      "module_id": 22,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 130,
+      "module_id": 22,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 131,
+      "module_id": 22,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 132,
+      "module_id": 22,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    },
+    {
+      "id": 133,
+      "module_id": 23,
+      "action_key": "view",
+      "name_ar": "عرض",
+      "name_en": "View"
+    },
+    {
+      "id": 134,
+      "module_id": 23,
+      "action_key": "create",
+      "name_ar": "إنشاء",
+      "name_en": "Create"
+    },
+    {
+      "id": 135,
+      "module_id": 23,
+      "action_key": "update",
+      "name_ar": "تعديل",
+      "name_en": "Update"
+    },
+    {
+      "id": 136,
+      "module_id": 23,
+      "action_key": "delete",
+      "name_ar": "حذف",
+      "name_en": "Delete"
+    },
+    {
+      "id": 137,
+      "module_id": 23,
+      "action_key": "approve",
+      "name_ar": "اعتماد",
+      "name_en": "Approve"
+    },
+    {
+      "id": 138,
+      "module_id": 23,
+      "action_key": "export",
+      "name_ar": "تصدير",
+      "name_en": "Export"
+    }
+  ],
+  "employee_portal_requests": [],
+  "purchase_quotations": []
+}
